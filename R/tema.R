@@ -1,38 +1,69 @@
 # ============================================================
-# Tema y utilidades compartidas de los gráficos
+# Estilo de la casa de El Quantificador
 # Author: Daniel Sanchez
-# Purpose: Define el tema, la paleta y los formatos es-EC que usan los
-#          cuatro gráficos. Cada script lo carga con source("R/tema.R").
-# Inputs:  Ninguno
-# Outputs: Objetos en memoria (theme_project, paleta, formatos)
+# Purpose: Tema, paleta, envoltorios de texto, formatos es-EC y logo que usan
+#          los cuatro gráficos. Sigue HOUSE_STYLE.md de
+#          elquantificador/graficos-el-quantificador (lienzo de 4 x 5 pulgadas).
+# Inputs:  quantificador.png (logo)
+# Outputs: Objetos en memoria
 # ============================================================
 
 # 0. Setup ----
 
+library(cowplot)
 library(ggplot2)
 library(scales)
+library(stringr)
 
 # Un solo acento para lo destacado y gris para el resto
 
-color_acento <- "#0D3692"
-color_gris <- "#9A9A9A"
+color_acento <- "#2D7DB3"
+color_gris <- "#7B8D97"
 
-# Base de 11 pt porque las figuras miden 20 cm de ancho y se leen en pantalla
+logo_path <- "quantificador.png"
 
-theme_project <- function(base_size = 11) {
-  theme_minimal(base_size = base_size) +
+# Tamaños de la casa (pt) y ancho de ajuste del título
+
+tamano_titulo <- 12.5
+tamano_subtitulo <- 9
+tamano_pie <- 6.5
+ancho_titulo <- 38
+
+house_wrap_width <- function(text_size_pt,
+                             reference_width = ancho_titulo,
+                             reference_size_pt = tamano_titulo) {
+  round(reference_width * reference_size_pt / text_size_pt)
+}
+
+ancho_pie <- round(60 * tamano_subtitulo / tamano_pie)
+
+wrap_title_house <- function(text) str_wrap(text, width = ancho_titulo)
+wrap_caption_house <- function(text) str_wrap(text, width = ancho_pie)
+
+# Tema base: theme_classic con textos grises, sin cuadrícula ni leyenda
+
+theme_quantificador <- function() {
+  theme_classic() +
     theme(
-      text = element_text(family = "serif"),
-      plot.background = element_rect(fill = "white", colour = "white"),
-      panel.border = element_rect(colour = "black", fill = NA, linewidth = 0.5),
-      panel.grid.major = element_line(linetype = "dashed", colour = "grey85"),
-      panel.grid.minor = element_blank(),
-      plot.title = element_text(face = "bold", size = 12.5),
+      axis.text = element_text(colour = "grey20", size = 7.5),
+      axis.title.x = element_text(size = 7, margin = margin(t = 8), hjust = 0),
+      axis.title.y = element_text(size = 7, margin = margin(r = 6), hjust = 1),
+      plot.title = element_text(
+        colour = "grey20", size = tamano_titulo, face = "bold", hjust = 0
+      ),
+      plot.subtitle = element_text(
+        colour = "grey30", size = tamano_subtitulo, lineheight = 1.1, hjust = 0
+      ),
+      plot.caption = element_text(
+        colour = "grey30", size = tamano_pie, lineheight = 1.1, hjust = 0,
+        margin = margin(t = 6)
+      ),
+      axis.line = element_line(colour = "grey60"),
+      legend.position = "none",
+      panel.grid = element_blank(),
+      plot.margin = margin(6, 36, 6, 16),
       plot.title.position = "plot",
-      plot.caption = element_text(hjust = 0, size = 7.5, colour = "grey30"),
-      plot.caption.position = "plot",
-      plot.margin = margin(10, 12, 8, 10),
-      legend.position = "bottom"
+      plot.caption.position = "plot"
     )
 }
 
@@ -51,13 +82,19 @@ meses_abreviados <- c(
   "jul", "ago", "sep", "oct", "nov", "dic"
 )
 
-# Ancho de ajuste de texto proporcional al tamaño de letra del elemento
+# Logo con la posición y el tamaño de la casa; solo y puede variar
 
-house_wrap_width <- function(text_size_pt,
-                             reference_width = 82,
-                             reference_size_pt = 12.5) {
-  round(reference_width * reference_size_pt / text_size_pt)
+agregar_logo <- function(plot, y = 0.28) {
+  ggdraw() +
+    theme(
+      plot.background = element_rect(fill = "white", colour = NA),
+      panel.background = element_rect(fill = "white", colour = NA)
+    ) +
+    draw_plot(plot, x = 0, y = 0, width = 1, height = 1) +
+    draw_image(logo_path, x = 0.88, y = y, width = 0.09, height = 0.09)
 }
 
-ancho_titulo <- house_wrap_width(12.5)
-ancho_pie <- house_wrap_width(7.5)
+# Lienzo estándar: 4 x 5 pulgadas a 300 dpi
+
+lienzo_ancho <- 4
+lienzo_alto <- 5
