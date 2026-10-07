@@ -145,7 +145,6 @@ Las fuentes se revisaron a mano. Para buscar documentos (boletines, calendarios,
 - [ ] Revisar el conteo del Gráfico 2 por operación. Con la página del 7 de octubre, `convocatorias_inec.csv` da ENEMDU 43 y ESPAC 12; el artículo dice ENEMDU 44 y ESPAC 11 (ENDI 14, ENCIET 4, otras 7 y el total de 80 coinciden). Falta decidir qué fila va en cada operación y, si cambia, ajustar `data/grafico2_convocatorias.csv`, el desglose de la ENEMDU y el texto.
 - [ ] Citar una fuente primaria del CNE para la fecha del 29 de noviembre de 2026. El Gráfico 4 cita al CNE, pero las referencias solo traen la nota de prensa [6]. El sitio del CNE bloquea la descarga automática; la nota "CNE aprobó la Convocatoria para las Elecciones Seccionales y del CPCCS 2027" (<https://www.cne.gob.ec/cne-aprobo-la-convocatoria-para-las-elecciones-seccionales-y-del-cpccs-2027/>) parece confirmarla, pero hay que abrirla y leerla antes de agregarla.
 - [ ] Confirmar con el contrato firmado que el primer contrato de empalme empezó el 19 de julio de 2025. Los términos de referencia (EC-INEC-489713-CS-INDV, 16 de junio de 2025) fijan 135 días, que cuadran con el 30 de noviembre, pero no traen la fecha de inicio.
-- [ ] Confirmar que el enlace del artículo (<https://github.com/elquantificador/apagon-estadistico-inec-2026>) es el definitivo: el repo está hoy en la cuenta personal, en privado.
 
 ## Licencia
 
