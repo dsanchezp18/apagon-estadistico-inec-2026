@@ -128,7 +128,7 @@ Creo que lo mínimo que el INEC le debe al país es una explicación. Si los dat
 
 &#91;e\] Desde mayo de 2026 el IPC se publica el décimo día laborable de cada mes, y ya no a inicios de mes, por la Resolución 001-2026 del Consejo Nacional de Estadística y Censos, anunciada en el calendario \[3\]. Junio salió el 14 de julio, julio el 17 de agosto y agosto el 14 de septiembre.
 
-*Para este artículo usé EcuDataMCP \[33\], un servidor de código abierto que conecta asistentes de inteligencia artificial con fuentes oficiales de Ecuador, para buscar boletines, calendarios y documentos del INEC y de otras instituciones. La herramienta me ayudó a encontrar las fuentes; la lectura, la verificación y el análisis son míos. Los datos y el código de este artículo están en GitHub (ENLACE PENDIENTE).*
+*Para este artículo usé EcuDataMCP \[33\], un servidor de código abierto que conecta asistentes de inteligencia artificial con fuentes oficiales de Ecuador, para buscar boletines, calendarios y documentos del INEC y de otras instituciones. La herramienta me ayudó a encontrar las fuentes; la lectura, la verificación y el análisis son míos. Los datos y el código de este artículo están en [GitHub](https://github.com/elquantificador/apagon-estadistico-inec-2026).*
 
 ## Referencias
 
