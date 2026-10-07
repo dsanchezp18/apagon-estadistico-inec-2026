@@ -29,62 +29,70 @@
 <rect x='0.000000000000064' y='-0.00000000000011' width='576.00' height='460.80' style='stroke-width: 1.16; stroke: #FFFFFF; fill: #FFFFFF;' />
 </g>
 <defs>
-  <clipPath id='cpMjA0LjczfDUxNi4yMnw3Ljk3fDQzOC4xOA=='>
-    <rect x='204.73' y='7.97' width='311.50' height='430.21' />
+  <clipPath id='cpMjA0LjczfDUxNi4yMnwxOS42M3w0NTIuODM='>
+    <rect x='204.73' y='19.63' width='311.50' height='433.20' />
   </clipPath>
 </defs>
-<g clip-path='url(#cpMjA0LjczfDUxNi4yMnw3Ljk3fDQzOC4xOA==)'>
-<rect x='204.73' y='7.97' width='311.50' height='430.21' style='stroke-width: 1.16; stroke: none; fill: #FFFFFF;' />
-<line x1='211.17' y1='31.87' x2='360.47' y2='31.87' style='stroke-width: 14.94; stroke: #6FA8DC; stroke-linecap: butt;' />
-<line x1='309.70' y1='79.67' x2='360.47' y2='79.67' style='stroke-width: 14.94; stroke: #6FA8DC; stroke-linecap: butt;' />
-<line x1='392.69' y1='175.28' x2='396.48' y2='175.28' style='stroke-width: 14.94; stroke: #6FA8DC; stroke-linecap: butt;' />
-<line x1='405.95' y1='223.08' x2='466.58' y2='223.08' style='stroke-width: 14.94; stroke: #6FA8DC; stroke-linecap: butt;' />
-<line x1='449.15' y1='318.68' x2='507.13' y2='318.68' style='stroke-width: 14.94; stroke: #C84040; stroke-linecap: butt;' />
-<polygon points='354.07,127.47 360.85,120.69 367.64,127.47 360.85,134.26 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
-<polygon points='430.99,270.88 437.78,264.09 444.57,270.88 437.78,277.67 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
-<polygon points='491.63,366.48 498.41,359.69 505.20,366.48 498.41,373.27 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
-<polygon points='500.34,414.28 507.13,407.49 513.92,414.28 507.13,421.07 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
-<text x='369.57' y='35.74' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='124.81px' lengthAdjust='spacingAndGlyphs'>1 nov 2024 a 30 nov 2025</text>
-<text x='369.57' y='83.54' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='97.22px' lengthAdjust='spacingAndGlyphs'>19 jul a 30 nov 2025</text>
-<text x='369.95' y='131.34' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='49.81px' lengthAdjust='spacingAndGlyphs'>1 dic 2025</text>
-<text x='405.57' y='179.14' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='96.59px' lengthAdjust='spacingAndGlyphs'>23 feb a 5 mar 2026</text>
-<text x='396.85' y='226.94' text-anchor='end' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='99.00px' lengthAdjust='spacingAndGlyphs'>30 mar a 6 sep 2026</text>
-<text x='428.69' y='274.74' text-anchor='end' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='56.41px' lengthAdjust='spacingAndGlyphs'>22 jun 2026</text>
-<text x='440.05' y='322.55' text-anchor='end' style='font-size: 10.81px; font-weight: bold;fill: #C84040; font-family: "Arial";' textLength='97.19px' lengthAdjust='spacingAndGlyphs'>22 jul a 22 dic 2026</text>
-<text x='489.32' y='370.35' text-anchor='end' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='59.41px' lengthAdjust='spacingAndGlyphs'>29 nov 2026</text>
-<text x='498.03' y='418.15' text-anchor='end' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='55.81px' lengthAdjust='spacingAndGlyphs'>22 dic 2026</text>
+<g clip-path='url(#cpMjA0LjczfDUxNi4yMnwxOS42M3w0NTIuODM=)'>
+<rect x='204.73' y='19.63' width='311.50' height='433.20' style='stroke-width: 1.16; stroke: none; fill: #FFFFFF;' />
+<rect x='204.73' y='67.76' width='311.50' height='48.13' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #F2F2F2;' />
+<rect x='204.73' y='164.03' width='311.50' height='48.13' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #F2F2F2;' />
+<rect x='204.73' y='260.30' width='311.50' height='48.13' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #F2F2F2;' />
+<rect x='204.73' y='356.56' width='311.50' height='48.13' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #F2F2F2;' />
+<line x1='211.17' y1='452.83' x2='211.17' y2='19.63' style='stroke-width: 0.85; stroke: #D9D9D9; stroke-linecap: butt;' />
+<line x1='246.03' y1='452.83' x2='246.03' y2='19.63' style='stroke-width: 0.85; stroke: #D9D9D9; stroke-linecap: butt;' />
+<line x1='279.76' y1='452.83' x2='279.76' y2='19.63' style='stroke-width: 0.85; stroke: #D9D9D9; stroke-linecap: butt;' />
+<line x1='314.62' y1='452.83' x2='314.62' y2='19.63' style='stroke-width: 0.85; stroke: #D9D9D9; stroke-linecap: butt;' />
+<line x1='349.49' y1='452.83' x2='349.49' y2='19.63' style='stroke-width: 0.85; stroke: #D9D9D9; stroke-linecap: butt;' />
+<line x1='384.35' y1='452.83' x2='384.35' y2='19.63' style='stroke-width: 0.85; stroke: #D9D9D9; stroke-linecap: butt;' />
+<line x1='418.08' y1='452.83' x2='418.08' y2='19.63' style='stroke-width: 0.85; stroke: #D9D9D9; stroke-linecap: butt;' />
+<line x1='452.94' y1='452.83' x2='452.94' y2='19.63' style='stroke-width: 0.85; stroke: #D9D9D9; stroke-linecap: butt;' />
+<line x1='487.80' y1='452.83' x2='487.80' y2='19.63' style='stroke-width: 0.85; stroke: #D9D9D9; stroke-linecap: butt;' />
+<rect x='211.17' y='29.25' width='149.69' height='28.88' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #6FA8DC;' />
+<rect x='309.70' y='77.39' width='51.16' height='28.88' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #6FA8DC;' />
+<rect x='392.69' y='173.66' width='4.17' height='28.88' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #6FA8DC;' />
+<rect x='405.95' y='221.79' width='61.01' height='28.88' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #6FA8DC;' />
+<rect x='449.15' y='318.06' width='58.36' height='28.88' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C84040;' />
+<polygon points='354.07,139.96 360.85,133.17 367.64,139.96 360.85,146.75 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
+<polygon points='430.99,284.36 437.78,277.57 444.57,284.36 437.78,291.15 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
+<polygon points='491.63,380.63 498.41,373.84 505.20,380.63 498.41,387.42 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
+<polygon points='500.34,428.76 507.13,421.97 513.92,428.76 507.13,435.55 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
+<text x='369.57' y='47.56' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='124.81px' lengthAdjust='spacingAndGlyphs'>1 nov 2024 a 30 nov 2025</text>
+<text x='369.57' y='95.69' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='97.22px' lengthAdjust='spacingAndGlyphs'>19 jul a 30 nov 2025</text>
+<text x='369.95' y='143.83' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='49.81px' lengthAdjust='spacingAndGlyphs'>1 dic 2025</text>
+<text x='405.57' y='191.96' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='96.59px' lengthAdjust='spacingAndGlyphs'>23 feb a 5 mar 2026</text>
+<text x='402.16' y='240.10' text-anchor='end' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='99.00px' lengthAdjust='spacingAndGlyphs'>30 mar a 6 sep 2026</text>
+<text x='433.99' y='288.23' text-anchor='end' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='56.41px' lengthAdjust='spacingAndGlyphs'>22 jun 2026</text>
+<text x='445.36' y='336.36' text-anchor='end' style='font-size: 10.81px; font-weight: bold;fill: #C84040; font-family: "Arial";' textLength='97.19px' lengthAdjust='spacingAndGlyphs'>22 jul a 22 dic 2026</text>
+<text x='494.62' y='384.50' text-anchor='end' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='59.41px' lengthAdjust='spacingAndGlyphs'>29 nov 2026</text>
+<text x='503.34' y='432.63' text-anchor='end' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='55.81px' lengthAdjust='spacingAndGlyphs'>22 dic 2026</text>
+<rect x='204.73' y='19.63' width='311.50' height='433.20' style='stroke-width: 1.07; stroke: #999999;' />
 </g>
 <g clip-path='url(#cpMC4wMHw1NzYuMDB8MC4wMHw0NjAuODA=)'>
-<polyline points='204.73,438.18 204.73,7.97 ' style='stroke-width: 1.16; stroke: #999999; stroke-linecap: square;' />
-<text x='199.35' y='36.17' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='171.16px' lengthAdjust='spacingAndGlyphs'>ENEMDU y ENCIET en paralelo</text>
-<text x='199.35' y='83.97' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='151.38px' lengthAdjust='spacingAndGlyphs'>Primer contrato de empalme</text>
-<text x='199.35' y='131.77' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='187.39px' lengthAdjust='spacingAndGlyphs'>Experimento: solo cambia el marco</text>
-<text x='199.35' y='179.57' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='136.73px' lengthAdjust='spacingAndGlyphs'>Misión del Banco Mundial</text>
-<text x='199.35' y='227.38' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='152.72px' lengthAdjust='spacingAndGlyphs'>Segundo contrato (entregas)</text>
-<text x='199.35' y='275.18' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='134.70px' lengthAdjust='spacingAndGlyphs'>Sale mayo, el último dato</text>
-<text x='199.35' y='322.98' text-anchor='end' style='font-size: 12.00px; font-weight: bold;fill: #C84040; font-family: "Arial";' textLength='145.30px' lengthAdjust='spacingAndGlyphs'>Apagón de publicaciones</text>
-<text x='199.35' y='370.78' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='124.06px' lengthAdjust='spacingAndGlyphs'>Elecciones seccionales</text>
-<text x='199.35' y='418.58' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='118.06px' lengthAdjust='spacingAndGlyphs'>Publicación prometida</text>
-<polyline points='201.74,31.87 204.73,31.87 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='201.74,79.67 204.73,79.67 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='201.74,127.47 204.73,127.47 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='201.74,175.28 204.73,175.28 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='201.74,223.08 204.73,223.08 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='201.74,270.88 204.73,270.88 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='201.74,318.68 204.73,318.68 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='201.74,366.48 204.73,366.48 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='201.74,414.28 204.73,414.28 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='204.73,438.18 516.22,438.18 ' style='stroke-width: 1.16; stroke: #999999; stroke-linecap: square;' />
-<polyline points='211.17,441.17 211.17,438.18 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='279.76,441.17 279.76,438.18 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='349.49,441.17 349.49,438.18 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='418.08,441.17 418.08,438.18 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<polyline points='487.80,441.17 487.80,438.18 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
-<text x='211.17' y='450.73' text-anchor='middle' style='font-size: 10.00px;fill: #333333; font-family: "Arial";' textLength='41.16px' lengthAdjust='spacingAndGlyphs'>nov 2024</text>
-<text x='279.76' y='450.73' text-anchor='middle' style='font-size: 10.00px;fill: #333333; font-family: "Arial";' textLength='43.92px' lengthAdjust='spacingAndGlyphs'>may 2025</text>
-<text x='349.49' y='450.73' text-anchor='middle' style='font-size: 10.00px;fill: #333333; font-family: "Arial";' textLength='41.16px' lengthAdjust='spacingAndGlyphs'>nov 2025</text>
-<text x='418.08' y='450.73' text-anchor='middle' style='font-size: 10.00px;fill: #333333; font-family: "Arial";' textLength='43.92px' lengthAdjust='spacingAndGlyphs'>may 2026</text>
-<text x='487.80' y='450.73' text-anchor='middle' style='font-size: 10.00px;fill: #333333; font-family: "Arial";' textLength='41.16px' lengthAdjust='spacingAndGlyphs'>nov 2026</text>
+<text x='211.17' y='17.24' text-anchor='middle' style='font-size: 10.00px;fill: #333333; font-family: "Arial";' textLength='41.16px' lengthAdjust='spacingAndGlyphs'>nov 2024</text>
+<text x='279.76' y='17.24' text-anchor='middle' style='font-size: 10.00px;fill: #333333; font-family: "Arial";' textLength='43.92px' lengthAdjust='spacingAndGlyphs'>may 2025</text>
+<text x='349.49' y='17.24' text-anchor='middle' style='font-size: 10.00px;fill: #333333; font-family: "Arial";' textLength='41.16px' lengthAdjust='spacingAndGlyphs'>nov 2025</text>
+<text x='418.08' y='17.24' text-anchor='middle' style='font-size: 10.00px;fill: #333333; font-family: "Arial";' textLength='43.92px' lengthAdjust='spacingAndGlyphs'>may 2026</text>
+<text x='487.80' y='17.24' text-anchor='middle' style='font-size: 10.00px;fill: #333333; font-family: "Arial";' textLength='41.16px' lengthAdjust='spacingAndGlyphs'>nov 2026</text>
+<polyline points='204.73,452.83 204.73,19.63 ' style='stroke-width: 1.16; stroke: #999999; stroke-linecap: square;' />
+<text x='199.35' y='47.99' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='171.16px' lengthAdjust='spacingAndGlyphs'>ENEMDU y ENCIET en paralelo</text>
+<text x='199.35' y='96.13' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='151.38px' lengthAdjust='spacingAndGlyphs'>Primer contrato de empalme</text>
+<text x='199.35' y='144.26' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='187.39px' lengthAdjust='spacingAndGlyphs'>Experimento: solo cambia el marco</text>
+<text x='199.35' y='192.39' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='136.73px' lengthAdjust='spacingAndGlyphs'>Misión del Banco Mundial</text>
+<text x='199.35' y='240.53' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='152.72px' lengthAdjust='spacingAndGlyphs'>Segundo contrato (entregas)</text>
+<text x='199.35' y='288.66' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='134.70px' lengthAdjust='spacingAndGlyphs'>Sale mayo, el último dato</text>
+<text x='199.35' y='336.79' text-anchor='end' style='font-size: 12.00px; font-weight: bold;fill: #C84040; font-family: "Arial";' textLength='145.30px' lengthAdjust='spacingAndGlyphs'>Apagón de publicaciones</text>
+<text x='199.35' y='384.93' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='124.06px' lengthAdjust='spacingAndGlyphs'>Elecciones seccionales</text>
+<text x='199.35' y='433.06' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='118.06px' lengthAdjust='spacingAndGlyphs'>Publicación prometida</text>
+<polyline points='201.74,43.69 204.73,43.69 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
+<polyline points='201.74,91.83 204.73,91.83 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
+<polyline points='201.74,139.96 204.73,139.96 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
+<polyline points='201.74,188.10 204.73,188.10 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
+<polyline points='201.74,236.23 204.73,236.23 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
+<polyline points='201.74,284.36 204.73,284.36 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
+<polyline points='201.74,332.50 204.73,332.50 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
+<polyline points='201.74,380.63 204.73,380.63 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
+<polyline points='201.74,428.76 204.73,428.76 ' style='stroke-width: 1.16; stroke-linecap: butt;' />
 </g>
 </g>
 </svg>
