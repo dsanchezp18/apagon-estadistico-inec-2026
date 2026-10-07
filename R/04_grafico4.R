@@ -13,6 +13,7 @@ library(dplyr)
 library(ggplot2)
 library(lubridate)
 library(readr)
+library(tibble)
 
 source("R/tema.R")
 
@@ -46,7 +47,7 @@ cronologia <- cronologia |>
       mismo_anio ~ paste0(fecha_inicio_corta, " a ", fecha_fin),
       .default = paste0(fecha_inicio, " a ", fecha_fin)
     ),
-    x_fecha = if_else(fin > fecha_corte_fecha, inicio - 24, fin + 24),
+    x_fecha = if_else(fin > fecha_corte_fecha, inicio - 10, fin + 24),
     hjust_fecha = if_else(fin > fecha_corte_fecha, 1, 0)
   )
 
@@ -58,13 +59,29 @@ fechas <- cronologia |>
 
 # 4. Plot ----
 
-# Los rótulos del eje y siguen el orden de los cortes: de arriba hacia abajo
+# Diagrama de Gantt: una fila por hito, bandas alternas, cuadrícula trimestral,
+# barras para los periodos (el último día cuenta completo) y rombos para las
+# fechas puntuales. Los rótulos del eje y siguen el orden de los cortes.
+
+bandas <- cronologia |>
+  filter(fila %% 2 == 0)
+
+trimestres <- tibble(inicio_trimestre = seq(ymd("2024-11-01"), ymd("2027-01-01"), by = "3 months"))
 
 grafico4 <- ggplot() +
-  geom_segment(
+  geom_rect(
+    data = bandas,
+    aes(ymin = fila - 0.5, ymax = fila + 0.5),
+    xmin = -Inf, xmax = Inf, fill = "grey95"
+  ) +
+  geom_vline(
+    data = trimestres,
+    aes(xintercept = inicio_trimestre),
+    colour = "grey85", linewidth = 0.4
+  ) +
+  geom_rect(
     data = periodos,
-    aes(x = inicio, xend = fin, y = fila, yend = fila, colour = color_marca),
-    linewidth = 7, lineend = "butt"
+    aes(xmin = inicio, xmax = fin + 1, ymin = fila - 0.3, ymax = fila + 0.3, fill = color_marca)
   ) +
   geom_point(
     data = fechas,
@@ -80,6 +97,7 @@ grafico4 <- ggplot() +
     size = 3.8
   ) +
   scale_colour_identity() +
+  scale_fill_identity() +
   scale_y_continuous(
     breaks = cronologia$fila,
     labels = cronologia$hito,
@@ -90,6 +108,7 @@ grafico4 <- ggplot() +
     limits = c(ymd("2024-10-15"), ymd("2027-01-15")),
     breaks = seq(ymd("2024-11-01"), ymd("2026-11-01"), by = "6 months"),
     labels = \(x) paste(meses_abreviados[month(x)], year(x)),
+    position = "top",
     expand = c(0, 0)
   ) +
   labs(x = NULL, y = NULL) +
@@ -99,7 +118,10 @@ grafico4 <- ggplot() +
     axis.text.y = element_text(
       colour = if_else(cronologia$destacado, color_acento, "grey20"),
       face = if_else(cronologia$destacado, "bold", "plain")
-    )
+    ),
+    axis.line.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    panel.border = element_rect(colour = "grey60", fill = NA, linewidth = 0.5)
   )
 
 # 6. Write outputs ----
