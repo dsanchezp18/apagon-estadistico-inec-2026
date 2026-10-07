@@ -8,6 +8,7 @@ Desde junio de 2026, Ecuador no tiene cifras oficiales nuevas de empleo. El art�
 
 ```text
 articulo/apagon-estadistico.md   texto completo del artículo
+articulo/apagon-estadistico.html  el artículo renderizado, con las figuras
 data/                            un CSV por gráfico
 data/raw/                        copias de fuentes que pueden cambiar o desaparecer
 R/                               un script por gráfico y un script que corre todo
@@ -17,14 +18,20 @@ figuras/                         salidas en PNG (300 dpi) y SVG
 ## Cómo reproducir los gráficos
 
 1. Clona el repositorio y abre una terminal en la raíz.
-2. Instala R (4.5 o posterior) y los paquetes `cowplot`, `dplyr`, `forcats`, `ggplot2`, `lubridate`, `magick`, `ragg`, `readr`, `scales`, `stringr`, `svglite` y `tidyr`.
+2. Instala R (4.5 o posterior) y los paquetes `dplyr`, `forcats`, `ggplot2`, `lubridate`, `ragg`, `readr`, `scales`, `stringr`, `svglite` y `tidyr`.
 3. Corre:
 
 ```bash
 Rscript R/00_run_all.R
 ```
 
-Cada script (`R/01_grafico1.R` a `R/04_grafico4.R`) también corre por separado desde la raíz. Todos leen el CSV de `data/`, grafican con ggplot2 y guardan en `figuras/`. El tema, la paleta, el logo y el formato de números es-EC (coma decimal) están en `R/tema.R`, que sigue el estilo de la casa de [El Quantificador](https://github.com/elquantificador/graficos-el-quantificador) (lienzo de 4 x 5 pulgadas a 300 dpi). El logo es `quantificador.png`.
+Cada script (`R/01_grafico1.R` a `R/04_grafico4.R`) también corre por separado desde la raíz. Todos leen el CSV de `data/`, grafican con ggplot2 y guardan en `figuras/`. El tema, la paleta, el logo y el formato de números es-EC (coma decimal) están en `R/tema.R`, que sigue el estilo de las figuras públicas de [enighur-quantificador](https://github.com/elquantificador/enighur-quantificador): `theme_classic` de 12 pt, lienzo de 8 x 6,4 pulgadas a 300 dpi y sin título ni pie dentro de la imagen (van en el texto del artículo).
+
+Para volver a generar el HTML del artículo con las figuras (necesita [Quarto](https://quarto.org/) instalado):
+
+```bash
+Rscript R/05_render_html.R
+```
 
 ## Gráficos y datos
 
