@@ -17,14 +17,14 @@ figuras/                         salidas en PNG (300 dpi) y SVG
 ## Cómo reproducir los gráficos
 
 1. Clona el repositorio y abre una terminal en la raíz.
-2. Instala R (4.5 o posterior) y los paquetes `dplyr`, `forcats`, `ggplot2`, `lubridate`, `readr`, `scales`, `stringr`, `tidyr`, `ragg` y `svglite`.
+2. Instala R (4.5 o posterior) y los paquetes `cowplot`, `dplyr`, `forcats`, `ggplot2`, `lubridate`, `magick`, `ragg`, `readr`, `scales`, `stringr`, `svglite` y `tidyr`.
 3. Corre:
 
 ```bash
 Rscript R/00_run_all.R
 ```
 
-Cada script (`R/01_grafico1.R` a `R/04_grafico4.R`) también corre por separado desde la raíz. Todos leen el CSV de `data/`, grafican con ggplot2 y guardan en `figuras/`. El tema, la paleta y el formato de números es-EC (coma decimal) están en `R/tema.R`.
+Cada script (`R/01_grafico1.R` a `R/04_grafico4.R`) también corre por separado desde la raíz. Todos leen el CSV de `data/`, grafican con ggplot2 y guardan en `figuras/`. El tema, la paleta, el logo y el formato de números es-EC (coma decimal) están en `R/tema.R`, que sigue el estilo de la casa de [El Quantificador](https://github.com/elquantificador/graficos-el-quantificador) (lienzo de 4 x 5 pulgadas a 300 dpi). El logo es `quantificador.png`.
 
 ## Gráficos y datos
 
@@ -38,9 +38,9 @@ Cada script (`R/01_grafico1.R` a `R/04_grafico4.R`) también corre por separado 
 Notas sobre los datos:
 
 - Gráfico 1: el mercado laboral es de mayo de 2026 y la pobreza por ingresos, de diciembre de 2025. Fuente: INEC, ENEMDU.
-- Gráfico 2: cada barra cuenta puestos (cargos por lugar de trabajo), no personas. Los 44 puestos de la ENEMDU se desglosan en `data/grafico2_enemdu_desglose.csv`. Consulta hecha el 6 de octubre de 2026 en la página *Trabaja con nosotros* del INEC.
+- Gráfico 2: cada barra cuenta puestos (cargos por lugar de trabajo), no personas. Los 44 puestos de la ENEMDU se desglosan en `data/grafico2_enemdu_desglose.csv`. Consulta hecha el 6 de octubre de 2026 en la página *Trabaja con nosotros* del INEC. Los conteos del CSV son los del artículo; `data/raw/convocatorias_inec.csv` trae las filas de la página al 7 de octubre (ver TODO).
 - Gráfico 3: los porcentajes son sobre el total de hogares o de viviendas. Fuente: INEC, Censo de Población y Vivienda 2010 y 2022.
-- Gráfico 4: el segundo contrato usa el calendario de entregas de los términos de referencia (160 días), aunque el contrato dice 120 días.
+- Gráfico 4: el segundo contrato usa el calendario de entregas de los términos de referencia (160 días), aunque el contrato dice 120 días. El primer contrato de empalme va del 19 de julio al 30 de noviembre de 2025, que son los 135 días de plazo de ejecución de sus términos de referencia (fechados el 16 de junio de 2025).
 
 ## Fuentes guardadas en `data/raw/`
 
@@ -48,7 +48,8 @@ Copias de documentos que pueden cambiar o desaparecer, con la fecha de descarga 
 
 - `calendario_operaciones_2026_descargado_2026-10-07.xlsx`: calendario de operaciones estadísticas 2026 del INEC. Origen: <https://www.ecuadorencifras.gob.ec/documentos/web-inec/Calendario_Estadistico/Calendario_estadistico_2026/files/operaciones.xlsx>
 - `boletin_reess_2026-05_descargado_2026-10-07.pdf`: boletín del Registro Estadístico de Empleo en la Seguridad Social (REESS) de mayo de 2026. Origen: <https://www.ecuadorencifras.gob.ec/documentos/web-inec/Estadisticas_Economicas/Estadistica_empleo_seguridad_social/2026/mayo/05_2026_Boletin_REESS.pdf>
-- `convocatorias_inec.csv`: una fila por cargo de las convocatorias del Gráfico 2. **TODO:** el archivo solo tiene los encabezados (cargo, operación, lugar, fecha de cierre, enlace); falta completarlo.
+- `trabaja_con_nosotros_descargado_2026-10-07.html`: copia de la página *Trabaja con nosotros* del INEC, <https://www.ecuadorencifras.gob.ec/institucional/trabaja-con-nosotros/>.
+- `convocatorias_inec.csv`: una fila por cargo de esa página (83 filas, cierres entre el 13 de septiembre y el 9 de octubre de 2026), con la operación asignada por el proyecto de cada convocatoria. La columna `cuenta_como_puesto` es `no` en las 3 filas de servicio de transporte (contratación pública, no son puestos); las otras 80 filas suman los 80 puestos del Gráfico 2.
 
 ## Fuentes
 
@@ -134,10 +135,10 @@ Las fuentes se revisaron a mano. Para buscar documentos (boletines, calendarios,
 
 ## TODO pendientes
 
-- [ ] Completar `data/raw/convocatorias_inec.csv` (una fila por cargo).
-- [ ] Reemplazar "ENLACE PENDIENTE" en `articulo/apagon-estadistico.md` por el enlace de este repositorio.
-- [ ] Confirmar la fuente de la fecha de las elecciones del CNE: el Gráfico 4 cita al CNE, pero la lista de referencias solo trae la nota de prensa [6].
-- [ ] Confirmar la fecha de inicio del primer contrato de empalme en el Gráfico 4 (19 de julio de 2025); el texto del artículo habla de junio de 2025 para la contratación.
+- [ ] Revisar el conteo del Gráfico 2 por operación. Con la página del 7 de octubre, `convocatorias_inec.csv` da ENEMDU 43 y ESPAC 12; el artículo dice ENEMDU 44 y ESPAC 11 (ENDI 14, ENCIET 4, otras 7 y el total de 80 coinciden). Falta decidir qué fila va en cada operación y, si cambia, ajustar `data/grafico2_convocatorias.csv`, el desglose de la ENEMDU y el texto.
+- [ ] Citar una fuente primaria del CNE para la fecha del 29 de noviembre de 2026. El Gráfico 4 cita al CNE, pero las referencias solo traen la nota de prensa [6]. El sitio del CNE bloquea la descarga automática; la nota "CNE aprobó la Convocatoria para las Elecciones Seccionales y del CPCCS 2027" (<https://www.cne.gob.ec/cne-aprobo-la-convocatoria-para-las-elecciones-seccionales-y-del-cpccs-2027/>) parece confirmarla, pero hay que abrirla y leerla antes de agregarla.
+- [ ] Confirmar con el contrato firmado que el primer contrato de empalme empezó el 19 de julio de 2025. Los términos de referencia (EC-INEC-489713-CS-INDV, 16 de junio de 2025) fijan 135 días, que cuadran con el 30 de noviembre, pero no traen la fecha de inicio.
+- [ ] Confirmar que el enlace del artículo (<https://github.com/elquantificador/apagon-estadistico-inec-2026>) es el definitivo: el repo está hoy en la cuenta personal, en privado.
 
 ## Licencia
 
