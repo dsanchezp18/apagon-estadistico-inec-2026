@@ -3,7 +3,7 @@
 # Author: Daniel Sanchez
 # Purpose: Gráfico de pesas (dumbbell), un punto por censo y una escala
 #          propia desde cero en cada fila, nacional, censos de 2010 y 2022
-# Inputs:  data/grafico3_censos.csv
+# Inputs:  data/grafico3_censos.csv, quantificador.png
 # Outputs: figuras/grafico3.png, figuras/grafico3.svg
 # ============================================================
 
@@ -33,7 +33,7 @@ tramos <- censos |>
   mutate(
     desde = pmin(censo_2010, censo_2022, na.rm = TRUE),
     hasta = pmax(censo_2010, censo_2022, na.rm = TRUE),
-    tope = hasta * 1.45
+    tope = hasta * 1.6
   )
 
 # Un punto por censo; la etiqueta va hacia afuera del tramo
@@ -54,8 +54,10 @@ puntos <- censos |>
       str_remove(numero_es(valor, accuracy = 0.1), ",0$"),
       " ", unidad
     ),
-    hjust = if_else(es_menor, 1.25, -0.25),
-    destacado = censo == "2022"
+    hjust = if_else(es_menor, 1.2, -0.2),
+    destacado = censo == "2022",
+    color_marca = if_else(destacado, color_acento, color_gris),
+    color_texto = if_else(destacado, color_acento, "grey30")
   )
 
 # Los años se rotulan solo en la primera fila, en lugar de una leyenda
@@ -71,54 +73,55 @@ grafico3 <- ggplot() +
   geom_segment(
     data = tramos,
     aes(x = desde, xend = hasta, y = 0, yend = 0),
-    colour = color_gris, linewidth = 1.2
+    colour = color_gris, linewidth = 0.9
   ) +
   geom_point(
     data = puntos,
-    aes(x = valor, y = 0, colour = destacado),
-    size = 4
+    aes(x = valor, y = 0, colour = color_marca),
+    size = 2.6
   ) +
   geom_text(
     data = puntos,
     aes(
       x = valor, y = 0, label = etiqueta, hjust = hjust,
-      colour = destacado, fontface = if_else(destacado, "bold", "plain")
+      colour = color_texto, fontface = if_else(destacado, "bold", "plain")
     ),
-    size = 3.6, family = "serif"
+    size = 3
   ) +
   geom_text(
     data = rotulos_anio,
-    aes(x = valor, y = 0, label = censo, colour = destacado),
-    vjust = -1.6, size = 3.4, family = "serif"
+    aes(x = valor, y = 0, label = censo, colour = color_texto),
+    vjust = -1.5, size = 3
   ) +
   facet_wrap(vars(indicador), ncol = 1, scales = "free_x") +
-  scale_colour_manual(
-    values = c("TRUE" = color_acento, "FALSE" = color_gris),
-    guide = "none"
+  scale_colour_identity() +
+  scale_x_continuous(
+    expand = c(0, 0),
+    labels = \(x) number(x, big.mark = ".", decimal.mark = ",")
   ) +
-  scale_x_continuous(expand = c(0, 0), labels = numero_es) +
   scale_y_continuous(limits = c(-0.6, 0.9)) +
   labs(
-    title = str_wrap(
-      "Gráfico 3. Indicadores de población, hogares y vivienda, nacional, censos de 2010 y 2022",
-      width = ancho_titulo
+    title = wrap_title_house(
+      "Indicadores de población, hogares y vivienda, nacional, censos de 2010 y 2022"
     ),
-    caption = str_wrap(
-      "Fuente: INEC, Censo de Población y Vivienda 2010 y 2022. Nota: los porcentajes son sobre el total de hogares o de viviendas.",
-      width = ancho_pie
+    caption = wrap_caption_house(
+      "Fuente: INEC, Censo de Población y Vivienda 2010 y 2022. Elaboración: El Quantificador. Nota: los porcentajes son sobre el total de hogares o de viviendas."
     ),
     x = NULL,
     y = NULL
   ) +
-  theme_project() +
+  theme_quantificador() +
   theme(
     axis.text.y = element_blank(),
     axis.ticks.y = element_blank(),
-    panel.grid.major.y = element_blank(),
-    panel.spacing.y = unit(0.35, "cm"),
+    axis.line.y = element_blank(),
+    axis.text.x = element_text(size = 6.5),
+    panel.spacing.y = unit(0.15, "in"),
     strip.background = element_blank(),
-    strip.text = element_text(hjust = 0, face = "bold", size = 10.5)
+    strip.text = element_text(hjust = 0, face = "bold", size = 8, colour = "grey20")
   )
+
+grafico3 <- agregar_logo(grafico3)
 
 # 6. Write outputs ----
 
@@ -126,14 +129,14 @@ ggsave(
   "figuras/grafico3.png",
   grafico3,
   device = ragg::agg_png,
-  width = 20, height = 18, units = "cm", dpi = 300
+  width = lienzo_ancho, height = lienzo_alto, units = "in", dpi = 300
 )
 
 ggsave(
   "figuras/grafico3.svg",
   grafico3,
   device = svglite::svglite,
-  width = 20, height = 18, units = "cm"
+  width = lienzo_ancho, height = lienzo_alto, units = "in"
 )
 
 message("Gráfico 3 guardado en figuras/")
