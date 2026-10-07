@@ -1,6 +1,6 @@
 # Apagón estadístico: ¿qué está pasando en el INEC en 2026?
 
-Oct 6, 2026 · @Daniel
+Oct 9, 2026
 
 *Desde junio, Ecuador no tiene cifras oficiales de empleo. "Piensa mal y acertarás", dirán algunos: ¿podría el Estado estar guardándose cifras incómodas ante las elecciones seccionales de noviembre? Revisando la información pública del Instituto Nacional de Estadística y Censos (INEC) y del Banco Mundial, encuentro que la verdad es algo más técnica, y, desafortunadamente, mucho más complicada y preocupante.*
 
