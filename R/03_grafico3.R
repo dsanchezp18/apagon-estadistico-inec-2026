@@ -20,7 +20,7 @@ source("R/tema.R")
 
 # Esta figura lleva seis filas, así que es más alta que el lienzo estándar
 
-alto_grafico3 <- 8
+alto_grafico3 <- 7.5
 
 # 1. Read inputs ----
 
@@ -31,13 +31,14 @@ censos <- read_csv("data/grafico3_censos.csv", show_col_types = FALSE)
 censos <- censos |>
   mutate(indicador = fct_inorder(indicador))
 
-# Un tramo por indicador y un tope de escala que deja espacio a las etiquetas
+# Una pista por indicador, desde cero hasta un tope que deja espacio a las
+# etiquetas; cada fila tiene su propia escala y por eso no lleva eje numérico
 
 tramos <- censos |>
   mutate(
     desde = pmin(censo_2010, censo_2022, na.rm = TRUE),
     hasta = pmax(censo_2010, censo_2022, na.rm = TRUE),
-    tope = hasta * 1.6
+    tope = hasta * 1.35
   )
 
 # Un punto por censo; la etiqueta va hacia afuera del tramo
@@ -58,13 +59,14 @@ puntos <- censos |>
       str_remove(numero_es(valor, accuracy = 0.1), ",0$"),
       " ", unidad
     ),
-    hjust = if_else(es_menor, 1.2, -0.2),
+    hjust = if_else(es_menor, 1, 0),
     destacado = censo == "2022",
     color_marca = if_else(destacado, color_acento, color_gris),
     color_texto = if_else(destacado, color_acento, "grey30")
   )
 
-# Los años se rotulan solo en la primera fila, en lugar de una leyenda
+# Los años se rotulan solo en la primera fila, debajo de los puntos, en lugar
+# de una leyenda; las etiquetas de valor van sobre la línea para no tocarla
 
 rotulos_anio <- puntos |>
   filter(indicador == first(levels(indicador)))
@@ -72,46 +74,50 @@ rotulos_anio <- puntos |>
 # 4. Plot ----
 
 grafico3 <- ggplot() +
-  geom_blank(data = tramos, aes(x = 0, y = 0)) +
-  geom_blank(data = tramos, aes(x = tope, y = 0)) +
+  geom_segment(
+    data = tramos,
+    aes(x = 0, xend = tope, y = 0, yend = 0),
+    colour = "grey85", linewidth = 0.6
+  ) +
+  geom_text(
+    data = tramos,
+    aes(x = 0, y = -0.32, label = "0"),
+    hjust = 0.5, size = 3.6, colour = "grey45"
+  ) +
   geom_segment(
     data = tramos,
     aes(x = desde, xend = hasta, y = 0, yend = 0),
-    colour = color_gris, linewidth = 1.2
+    colour = color_gris, linewidth = 1.4
   ) +
   geom_point(
     data = puntos,
     aes(x = valor, y = 0, colour = color_marca),
-    size = 3.5
+    size = 4
   ) +
   geom_text(
     data = puntos,
     aes(
-      x = valor, y = 0, label = etiqueta, hjust = hjust,
+      x = valor, y = 0.3, label = etiqueta, hjust = hjust,
       colour = color_texto, fontface = if_else(destacado, "bold", "plain")
     ),
-    size = 4.2
+    size = 4.2, vjust = 0
   ) +
   geom_text(
     data = rotulos_anio,
-    aes(x = valor, y = 0, label = censo, colour = color_texto),
-    vjust = -1.6, size = 4.2
+    aes(x = valor, y = -0.32, label = censo, colour = color_texto),
+    vjust = 1, size = 4
   ) +
   facet_wrap(vars(indicador), ncol = 1, scales = "free_x") +
   scale_colour_identity() +
-  scale_x_continuous(
-    expand = c(0, 0),
-    labels = \(x) number(x, big.mark = ".", decimal.mark = ",")
-  ) +
-  scale_y_continuous(limits = c(-0.6, 0.9)) +
+  scale_x_continuous(expand = expansion(mult = c(0.02, 0))) +
+  scale_y_continuous(limits = c(-0.8, 0.8)) +
   labs(x = NULL, y = NULL) +
   theme_grafico() +
   theme(
-    axis.text.y = element_blank(),
-    axis.ticks.y = element_blank(),
-    axis.line.y = element_blank(),
-    axis.text.x = element_text(size = 10),
-    panel.spacing.y = unit(0.15, "in"),
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    axis.line = element_blank(),
+    panel.spacing.y = unit(0.1, "in"),
     strip.background = element_blank(),
     strip.text = element_text(hjust = 0, face = "bold", size = 12, colour = "grey20")
   )
