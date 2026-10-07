@@ -3,7 +3,7 @@
 # Author: Daniel Sanchez
 # Purpose: Gráfico de pesas (dumbbell), un punto por censo y una escala
 #          propia desde cero en cada fila, nacional, censos de 2010 y 2022
-# Inputs:  data/grafico3_censos.csv, quantificador.png
+# Inputs:  data/grafico3_censos.csv
 # Outputs: figuras/grafico3.png, figuras/grafico3.svg
 # ============================================================
 
@@ -17,6 +17,10 @@ library(stringr)
 library(tidyr)
 
 source("R/tema.R")
+
+# Esta figura lleva seis filas, así que es más alta que el lienzo estándar
+
+alto_grafico3 <- 8
 
 # 1. Read inputs ----
 
@@ -73,12 +77,12 @@ grafico3 <- ggplot() +
   geom_segment(
     data = tramos,
     aes(x = desde, xend = hasta, y = 0, yend = 0),
-    colour = color_gris, linewidth = 0.9
+    colour = color_gris, linewidth = 1.2
   ) +
   geom_point(
     data = puntos,
     aes(x = valor, y = 0, colour = color_marca),
-    size = 2.6
+    size = 3.5
   ) +
   geom_text(
     data = puntos,
@@ -86,12 +90,12 @@ grafico3 <- ggplot() +
       x = valor, y = 0, label = etiqueta, hjust = hjust,
       colour = color_texto, fontface = if_else(destacado, "bold", "plain")
     ),
-    size = 3
+    size = 4.2
   ) +
   geom_text(
     data = rotulos_anio,
     aes(x = valor, y = 0, label = censo, colour = color_texto),
-    vjust = -1.5, size = 3
+    vjust = -1.6, size = 4.2
   ) +
   facet_wrap(vars(indicador), ncol = 1, scales = "free_x") +
   scale_colour_identity() +
@@ -100,28 +104,17 @@ grafico3 <- ggplot() +
     labels = \(x) number(x, big.mark = ".", decimal.mark = ",")
   ) +
   scale_y_continuous(limits = c(-0.6, 0.9)) +
-  labs(
-    title = wrap_title_house(
-      "Indicadores de población, hogares y vivienda, nacional, censos de 2010 y 2022"
-    ),
-    caption = wrap_caption_house(
-      "Fuente: INEC, Censo de Población y Vivienda 2010 y 2022. Elaboración: El Quantificador. Nota: los porcentajes son sobre el total de hogares o de viviendas."
-    ),
-    x = NULL,
-    y = NULL
-  ) +
-  theme_quantificador() +
+  labs(x = NULL, y = NULL) +
+  theme_grafico() +
   theme(
     axis.text.y = element_blank(),
     axis.ticks.y = element_blank(),
     axis.line.y = element_blank(),
-    axis.text.x = element_text(size = 6.5),
+    axis.text.x = element_text(size = 10),
     panel.spacing.y = unit(0.15, "in"),
     strip.background = element_blank(),
-    strip.text = element_text(hjust = 0, face = "bold", size = 8, colour = "grey20")
+    strip.text = element_text(hjust = 0, face = "bold", size = 12, colour = "grey20")
   )
-
-grafico3 <- agregar_logo(grafico3)
 
 # 6. Write outputs ----
 
@@ -129,14 +122,14 @@ ggsave(
   "figuras/grafico3.png",
   grafico3,
   device = ragg::agg_png,
-  width = lienzo_ancho, height = lienzo_alto, units = "in", dpi = 300
+  width = lienzo_ancho, height = alto_grafico3, units = "in", dpi = 300
 )
 
 ggsave(
   "figuras/grafico3.svg",
   grafico3,
   device = svglite::svglite,
-  width = lienzo_ancho, height = lienzo_alto, units = "in"
+  width = lienzo_ancho, height = alto_grafico3, units = "in"
 )
 
 message("Gráfico 3 guardado en figuras/")
