@@ -33,13 +33,21 @@ img {
   margin: 0.8rem auto 0.3rem;
 }
 
+.grafico {
+  break-inside: avoid;
+  margin: 1.6rem 0 1.8rem;
+}
+
+.grafico > p:first-child {
+  margin-bottom: 0.2rem;
+}
+
 p.fuente {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
   line-height: 1.4;
   color: #555;
-  margin-top: 0;
-  margin-bottom: 1.8rem;
+  margin: 0;
 }
 
 @media (prefers-color-scheme: dark) {
