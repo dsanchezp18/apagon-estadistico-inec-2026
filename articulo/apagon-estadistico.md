@@ -4,15 +4,15 @@ Oct 9, 2026
 
 *Desde junio, Ecuador no tiene cifras oficiales de empleo. "Piensa mal y acertarás", dirán algunos: ¿podría el Estado estar guardándose cifras incómodas ante las elecciones seccionales de noviembre? Revisando la información pública del Instituto Nacional de Estadística y Censos (INEC) y del Banco Mundial, encuentro que la verdad es algo más técnica, y, desafortunadamente, mucho más complicada y preocupante.*
 
-Hace más de tres meses que no tenemos datos nuevos del mercado laboral ecuatoriano. El último informe de empleo, publicado por el INEC, salió el 22 de junio de 2026, con cifras de mayo \[1\]. Las cifras de junio y la pobreza del primer semestre debían salir el 22 de julio. No salieron, y tampoco el informe del segundo trimestre, ni julio, ni agosto, ni septiembre \[2\]. Ahora el calendario oficial del INEC dice que los datos de junio a octubre saldrán todos juntos el 22 de diciembre, a pocos días de Navidad y tres semanas después de las elecciones seccionales \[3\]. Desde agosto, en redes se repite el mismo reclamo: falta una explicación oficial \[4\] \[5\].
+Hace más de tres meses que no tenemos datos nuevos del mercado laboral ecuatoriano. El último informe de empleo, publicado por el INEC, salió el 22 de junio de 2026, con cifras de mayo \[1\]. Las cifras de junio y la pobreza del primer semestre debían salir el 22 de julio. No salieron, y tampoco el informe del segundo trimestre, ni julio, ni agosto, ni septiembre \[2\]. Ahora el calendario oficial del INEC dice que los datos de junio a octubre saldrán todos juntos el 22 de diciembre, a pocos días de Navidad y tres semanas después de las elecciones seccionales \[3\]. Desde septiembre, en redes se repite el mismo reclamo: falta una explicación oficial \[4\] \[5\].
 
-Este retraso alimenta una explicación cínica: ¿hay algo que esconder en esos datos? Si se cumple la nueva fecha, el país llegará a las seccionales del 29 de noviembre sin cifras actualizadas de empleo ni de pobreza.
+Este retraso alimenta una explicación cínica: ¿hay algo que esconder en esos datos? Con la nueva fecha, el país llegará a las seccionales del 29 de noviembre sin cifras actualizadas de empleo ni de pobreza.
 
 En este artículo pongo a prueba esa explicación con la evidencia disponible. Parto de la navaja de Hanlon: no atribuyas a la malicia lo que se explica mejor por el desorden \[a\]. Lo que encuentro es una mezcla, parte explicación técnica y parte explicación cínica: un retraso que le cae muy bien al gobierno y, a la vez, una inoperancia peligrosísima. Para separar una cosa de la otra, sigo la pista de la información que el propio INEC y el Banco Mundial tienen publicada.
 
 ## ¿Y qué pasa si no hay datos?&#32;
 
-Un optimista diría que unos meses de retraso no son graves. Pero las cifras de empleo se usan en tiempo real. Con ellas se discute el salario básico, el Banco Central y el FMI siguen la economía, etc. \[7\]. Y este año hay una razón más: el 29 de noviembre hay elecciones, y votar sin saber cómo van el empleo y la pobreza es votar con menos información.
+Un optimista diría que unos meses de retraso no son graves. Pero las cifras de empleo se usan en tiempo real. Con ellas se discute el salario básico, el Banco Central y el FMI siguen la economía \[7\]. Y este año hay una razón más: el 29 de noviembre hay elecciones, y votar sin saber cómo van el empleo y la pobreza es votar con menos información.
 
 Todo lo que hemos perdido sale de una sola fuente: la Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU), que el INEC levanta cada mes en miles de hogares. De ella salen el desempleo, el empleo adecuado, el subempleo y la informalidad. Pero de ahí también salen los ingresos de los hogares, y con ellos algo todavía más importante: la pobreza por ingresos y el coeficiente de Gini, que mide la desigualdad \[b\].
 
@@ -20,7 +20,7 @@ Todo lo que hemos perdido sale de una sola fuente: la Encuesta Nacional de Emple
 
 &#91;embedded content: Fuente: INEC, ENEMDU mayo de 2026 (mercado laboral) y diciembre de 2025 (pobreza por ingresos).\]
 
-Esa cifra de pobreza se publicó el 8 de enero, hace nueve meses. La siguiente ni siquiera tiene fecha: el INEC no ha dicho si saldrá en diciembre junto con el empleo \[8\]. Si en diciembre publica los microdatos, cualquiera podrá calcularla; si no, el apagón de la pobreza se alarga. Falta saber algo más básico: si esos datos existen, o si el INEC dejó de producirlos.
+La pobreza por ingresos del gráfico (21,4%, diciembre de 2025) se publicó el 8 de enero, hace nueve meses. La siguiente ni siquiera tiene fecha: el INEC no ha dicho si saldrá en diciembre junto con el empleo \[8\]. Si en diciembre publica los microdatos, cualquiera podrá calcularla; si no, el apagón de la pobreza se alarga. Falta saber algo más básico: si esos datos existen, o si el INEC dejó de producirlos.
 
 ## ¿Entonces el INEC dejó de hacer la encuesta?&#32;
 
@@ -44,9 +44,9 @@ El primero es el **marco muestral**, la lista de sectores y viviendas de donde s
 
 &#91;embedded content: INEC, resultados nacionales del Censo 2022 (septiembre de 2023), con la comparación frente al Censo 2010. Población 2010: 14.483.499; 2022: 16.938.986.\]
 
-Hasta mayo, el INEC midió el empleo con el marco del censo de 2010, levantado antes de la pandemia. Cabe observar que, como muestra el gráfico, en doce años el país sumó 2,5 millones de personas, pero el cambio más grande está en los hogares: son más chicos (de 3,8 a 3,2 personas), uno de cada seis es de una sola persona y una de cada cinco viviendas es un departamento. La mediana de edad subió, además, cinco años \[10\].
+Hasta mayo, el INEC midió el empleo con el marco del censo de 2010, levantado antes de la pandemia. Como muestra el Gráfico 3, en doce años el país sumó 2,5 millones de personas, pero el cambio más grande está en los hogares: son más chicos (de 3,8 a 3,2 personas), uno de cada seis es de una sola persona y una de cada cinco viviendas es un departamento. La mediana de edad subió, además, cinco años \[10\].
 
-El Ecuador de 2010 ya no existe, y eso no debería sorprender a nadie. Ahora bien, corregirlo implica cambiar la base de la encuesta al nuevo censo. Ese proceso, desafortunadamente, es más difícil de lo que suena. Cambiar de marco obliga a rehacer la lista de viviendas y las proyecciones de población, y eso no solo mueve las cifras nuevas: para mantener la comparabilidad, también hay que reconstruir las series históricas con el marco nuevo \[c\]. Este proceso se llama empalmar.
+El Ecuador de 2010 ya no existe, y eso no debería sorprender a nadie. Ahora bien, corregirlo implica cambiar la base de la encuesta al nuevo censo. Ese proceso, desafortunadamente, es más difícil de lo que suena. Cambiar de marco obliga a rehacer la lista de viviendas y las proyecciones de población, y eso no solo mueve las cifras nuevas: para mantener la comparabilidad, también hay que reconstruir las series históricas con el marco nuevo \[c\]. Esa reconstrucción se llama empalme.
 
 El caso más cercano es Colombia. Entre 2021 y 2022, el Departamento Administrativo Nacional de Estadística (DANE), la oficina de estadística colombiana, hizo lo que hoy intenta el INEC: pasó su encuesta de empleo, la Gran Encuesta Integrada de Hogares (GEIH), del marco del Censo 2005 al del Censo 2018. Levantó una encuesta paralela durante 2021 y publicó los datos de enero de 2022, ya con el diseño nuevo, el 28 de febrero, a tiempo \[11\]. Las series empalmadas hacia atrás llegaron después y por etapas: primero las de mercado laboral y luego las de pobreza y desigualdad \[12\]. El DANE no esperó a tenerlo todo listo para seguir publicando.
 
@@ -70,13 +70,11 @@ Un cambio tan grande deja huellas, y las seguí en los documentos de compras del
 6. **30 de marzo de 2026.** Segundo contrato con la misma consultora, por USD 20.000, pero para otro encargo: reconstruir las series de la propia ENEMDU con el marco de 2022, de diciembre de 2014 a marzo de 2026 \[26\]. Para entonces, el INEC había decidido migrar la ENEMDU al marco nuevo, y su informe de necesidad aclara que el primer contrato no estaba enfocado en esa reconstrucción \[25\].
 7. **22 de junio de 2026.** Sale el informe de mayo \[1\]. Desde entonces, nada.
 
-Los dos contratos, entonces, responden a encargos distintos. El primero buscaba unir la ENEMDU con una ENCIET llamada a sucederla; el segundo reconstruye la propia ENEMDU con el marco nuevo, lo que sugiere que el INEC decidió mantenerla. No es claro por qué sigue adelante con la ENCIET, ni si el primer empalme llegó a entregarse: los documentos revisados no lo dicen. Lo que sí muestran es que el plan cambió en el camino.
+Los dos contratos, entonces, responden a encargos distintos. El primero buscaba unir la ENEMDU con una ENCIET llamada a sucederla; el segundo reconstruye la propia ENEMDU con el marco nuevo, lo que sugiere que el INEC decidió mantenerla. No es claro por qué sigue adelante con la ENCIET (el Gráfico 2 muestra cuatro puestos abiertos para ella), ni si el primer empalme llegó a entregarse: los documentos revisados no lo dicen.
 
-El segundo contrato, además, coincide con el apagón. Según sus términos de referencia, la reconstrucción de enero a marzo de 2026 debía entregarse a los 111 días de firmado. Como se adjudicó el 30 de marzo, el plazo vencía, como pronto, el 19 de julio, tres días antes de la fecha en que debían salir los datos de junio \[27\] \[e\].
+El segundo contrato, además, coincide con el apagón. Según sus términos de referencia, la reconstrucción de enero a marzo de 2026 debía entregarse a los 111 días de firmado. Como se adjudicó el 30 de marzo, el plazo vencía, como pronto, el 19 de julio, tres días antes de la fecha en que debían salir los datos de junio \[27\] \[e\]. Sin esa reconstrucción, publicar junio con el marco nuevo habría mezclado dos efectos: lo que de verdad pasó en el mercado laboral y el cambio de marco.
 
-La razón de fondo es la comparabilidad. Publicar junio con el marco nuevo, sin esa reconstrucción, habría mezclado dos efectos: lo que de verdad pasó en el mercado laboral y el cambio de marco. Una caída del desempleo podría ser una buena noticia o un simple efecto del marco, y no habría forma de separarlos. Por eso la reconstrucción es necesaria, y por eso tiene sentido que el INEC quiera publicar la serie nueva ya reconstruida.
-
-Con base en los documentos revisados, el INEC prepara una transición que, seis meses antes de interrumpirse la publicación, ya sabía que rompería la comparabilidad de sus series. El apagón es la consecuencia visible de un problema que ya estaba ocurriendo.
+Los documentos muestran que el INEC sabía, al menos desde marzo de 2026, que el cambio de marco rompería la comparabilidad de sus series \[25\]. El apagón es la consecuencia visible de un problema que ya estaba en marcha.
 
 ## El atraso no es solo de la ENEMDU
 
@@ -86,15 +84,7 @@ El caso más difícil de explicar es el REESS, que cuenta mes a mes a los afilia
 
 Las explicaciones, además, son desiguales. Las operaciones menores que se atrasaron, como la encuesta STEPS o el registro de educación, tienen un motivo escrito en el calendario; la ENEMDU, la más importante del instituto, y los tres registros mencionados no tienen ninguno. Tampoco es que el INEC se haya detenido por completo: el IPC sigue saliendo cada mes \[f\].
 
-Las fechas, por último, siguen un patrón. El 27 de marzo de 2026 el CNE adelantó las elecciones seccionales del 14 de febrero de 2027 al 29 de noviembre de 2026, alegando las lluvias previstas por El Niño \[6\]. El INEC anunció la nueva fecha de la ENEMDU entre fines de septiembre y comienzos de octubre, seis meses después, cuando ya se sabía cuándo se votaba \[8\]. Con el calendario actual, cinco operaciones del instituto quedan del otro lado de la elección:
-
-- el Registro Estadístico de Empresas (REEM), el 2 de diciembre;
-- la ENVIGMU, sobre violencia contra las mujeres, el 3 de diciembre;
-- el Registro de Defunciones Generales, el 15 de diciembre;
-- el empleo de la ENEMDU de junio a octubre, el 22 de diciembre, y la pobreza, sin fecha;
-- el Registro Estadístico de Empleo en la Seguridad Social (REESS), es decir, el empleo formal afiliado al IESS de junio a octubre, "en el mes de diciembre", sin día fijo.
-
-Ninguna de estas fechas prueba una intención, pero juntas piden una explicación. Queda por separar lo que explica el desorden de lo que sigue sin explicación.
+Las fechas, por último, siguen un patrón. El 27 de marzo de 2026 el CNE adelantó las elecciones seccionales del 14 de febrero de 2027 al 29 de noviembre de 2026, alegando las lluvias previstas por El Niño \[6\]. El INEC anunció la nueva fecha de la ENEMDU entre fines de septiembre y comienzos de octubre, seis meses después y cuando ya se sabía cuándo se votaba \[8\]. Con el calendario actual, esas operaciones y la ENEMDU quedan del otro lado de la elección. Ninguna de estas fechas prueba una intención, pero juntas piden una explicación, y queda por separar lo que explica el desorden de lo que sigue sin explicación.
 
 ## El desorden lo explica casi todo, menos el silencio
 
