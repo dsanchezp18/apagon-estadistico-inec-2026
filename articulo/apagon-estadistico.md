@@ -6,7 +6,7 @@ Oct 9, 2026
 
 Hace más de tres meses que no tenemos datos nuevos del mercado laboral ecuatoriano. El último informe de empleo, publicado por el INEC, salió el 22 de junio de 2026, con cifras de mayo \[1\]. Las cifras de junio y la pobreza del primer semestre debían salir el 22 de julio. No salieron, y tampoco el informe del segundo trimestre, ni julio, ni agosto, ni septiembre \[2\]. Ahora el calendario oficial del INEC dice que los datos de junio a octubre saldrán todos juntos el 22 de diciembre, a pocos días de Navidad y tres semanas después de las elecciones seccionales \[3\]. Desde agosto, en redes se repite el mismo reclamo: falta una explicación oficial \[4\] \[5\].
 
-Este retraso alimenta una explicación cínica: el gobierno quiere esconder o manipular los datos. La demora es extrañamente conveniente para el gobierno. Si se cumple la nueva fecha, el país llegará a las seccionales del 29 de noviembre sin cifras actualizadas de empleo ni de pobreza.
+Este retraso alimenta una explicación cínica: ¿hay algo que esconder en esos datos? Si se cumple la nueva fecha, el país llegará a las seccionales del 29 de noviembre sin cifras actualizadas de empleo ni de pobreza.
 
 En este artículo pongo a prueba esa explicación con la evidencia disponible. Parto de la navaja de Hanlon: no atribuyas a la malicia lo que se explica mejor por el desorden \[a\]. Lo que encuentro es una mezcla, parte explicación técnica y parte explicación cínica: un retraso que le cae muy bien al gobierno y, a la vez, una inoperancia peligrosísima. Para separar una cosa de la otra, sigo la pista de la información que el propio INEC y el Banco Mundial tienen publicada.
 
@@ -46,7 +46,7 @@ El primero es el **marco muestral**, la lista de sectores y viviendas de donde s
 
 Hasta mayo, el INEC midió el empleo con el marco del censo de 2010, levantado antes de la pandemia. Cabe observar que, como muestra el gráfico, en doce años el país sumó 2,5 millones de personas, pero el cambio más grande está en los hogares: son más chicos (de 3,8 a 3,2 personas), uno de cada seis es de una sola persona y una de cada cinco viviendas es un departamento. La mediana de edad subió, además, cinco años \[10\].
 
-El Ecuador de 2010 ya no existe, y eso no debería sorprender a nadie. Ahora bien, corregirlo implica cambiar la base de la encuesta al nuevo censo, el *rebasing* del que hablé antes. Ese proceso, desafortunadamente, es más difícil de lo que suena. Cambiar de marco obliga a rehacer la lista de viviendas y las proyecciones de población, y eso no solo mueve las cifras nuevas: para mantener la comparabilidad, también hay que reconstruir las series históricas con el marco nuevo. Y todo esto ni siquiera considera los problemas que tuvo el Censo 2022 \[c\].
+El Ecuador de 2010 ya no existe, y eso no debería sorprender a nadie. Ahora bien, corregirlo implica cambiar la base de la encuesta al nuevo censo. Ese proceso, desafortunadamente, es más difícil de lo que suena. Cambiar de marco obliga a rehacer la lista de viviendas y las proyecciones de población, y eso no solo mueve las cifras nuevas: para mantener la comparabilidad, también hay que reconstruir las series históricas con el marco nuevo \[c\]. Este proceso se llama empalmar.
 
 El caso más cercano es Colombia. Entre 2021 y 2022, el Departamento Administrativo Nacional de Estadística (DANE), la oficina de estadística colombiana, hizo lo que hoy intenta el INEC: pasó su encuesta de empleo, la Gran Encuesta Integrada de Hogares (GEIH), del marco del Censo 2005 al del Censo 2018. Levantó una encuesta paralela durante 2021 y publicó los datos de enero de 2022, ya con el diseño nuevo, el 28 de febrero, a tiempo \[11\]. Las series empalmadas hacia atrás llegaron después y por etapas: primero las de mercado laboral y luego las de pobreza y desigualdad \[12\]. El DANE no esperó a tenerlo todo listo para seguir publicando.
 
@@ -54,27 +54,29 @@ En los países ricos esto es rutina. Canadá actualizó en enero de 2025 la *Lab
 
 ## Además del marco, cambia la encuesta
 
-El INEC prepara una encuesta de empleo nueva, la ENCIET, que reemplazaría a la ENEMDU o la reformaría. En 2013, la Conferencia Internacional de Estadísticos del Trabajo (CIET, de ahí el nombre), que convoca la Organización Internacional del Trabajo, cambió la definición de qué cuenta como trabajo, y la ENEMDU todavía mide con las reglas viejas \[22\]. La ENCIET cambia casi todo a la vez: usa el marco del Censo 2022, otro cuestionario y otras definiciones. Por ejemplo, separa el empleo, es decir, trabajar a cambio de un pago o un beneficio, de otras formas de trabajo como cultivar para comer en casa o hacer voluntariado, que antes se mezclaban o no se veían.
+El INEC desarrolla una encuesta de empleo nueva, la ENCIET, que en un inicio debía reemplazar a la ENEMDU. En 2013, la Conferencia Internacional de Estadísticos del Trabajo (CIET, de ahí el nombre), que convoca la Organización Internacional del Trabajo, cambió la definición de qué cuenta como trabajo, y la ENEMDU todavía mide con las reglas viejas \[22\]. La ENCIET cambia casi todo a la vez: usa el marco del Censo 2022, otro cuestionario y otras definiciones. Por ejemplo, separa el empleo, es decir, trabajar a cambio de un pago o un beneficio, de otras formas de trabajo como cultivar para comer en casa o hacer voluntariado, que antes se mezclaban o no se veían.
 
 Un cambio tan grande deja huellas, y las seguí en los documentos de compras del INEC y en los informes de supervisión del Banco Mundial, que financia el proyecto. En orden, esto es lo que muestran:
 
 **Gráfico 4.** Línea de tiempo del apagón estadístico de la ENEMDU, noviembre de 2024 a diciembre de 2026
 
-&#91;embedded content: Fuente: INEC (calendario 2026, contratos EC-INEC-489713 y 533831); Banco Mundial (informes de supervisión, proyecto P178564); CNE\]
+&#91;embedded content: Fuente: INEC, Banco Mundial y CNE.\]
 
-1. **Noviembre 2024 a noviembre 2025.** El INEC levanta la ENEMDU y la ENCIET al mismo tiempo, como hizo Colombia \[23\].
-2. **Junio 2025.** Contrata por USD 26.666,67 a la estadística colombiana Hanwen Zhang, que dirigió el empalme de pobreza del DANE, para empalmar las dos encuestas (unir la serie vieja con la nueva para que se puedan seguir comparando). Según el INEC, nadie dentro del instituto tenía esa experiencia \[24\].
-3. **Agosto 2025.** El Banco Mundial anota que todavía no está decidido si la ENCIET reemplazará a la ENEMDU \[23\].
-4. **Diciembre 2025.** Una prueba con el mismo cuestionario y el marco de 2022 muestra que el marco nuevo, por sí solo, "genera cambios en los niveles" de empleo, pobreza y desigualdad que impiden "la comparación directa" con las cifras anteriores \[25\].
-5. **Febrero y marzo de 2026.** El Banco Mundial escribe que el cambio es "no solo técnico sino también político-institucional" y pide al INEC un informe que justifique "la transición entre encuestas, o la modificación de la actual encuesta" \[21\]. Ese informe no se ha publicado.
-6. **30 de marzo de 2026.** Segundo contrato con la misma consultora, por USD 20.000, para reconstruir las series desde diciembre de 2014 con el marco de 2022 \[26\]. Para entonces el INEC ya había decidido pasar la propia ENEMDU al marco nuevo \[25\].
-7. **22 de junio de 2026.** Sale mayo \[1\]. Desde entonces, nada.
+1. **Noviembre 2024 a noviembre 2025.** El INEC levanta la ENEMDU y la ENCIET en paralelo, como hizo Colombia \[23\].
+2. **Junio 2025.** Contrata por USD 26.666,67 a la estadística colombiana Hanwen Zhang, que dirigió el empalme de pobreza del DANE, para empalmar la ENEMDU con la ENCIET, la encuesta que, según los términos de referencia, la reemplazaría en el futuro. Según el INEC, buscó a alguien de afuera porque nadie en el instituto tenía experiencia comprobada en un empalme de esa magnitud \[24\].
+3. **Agosto 2025.** Dos meses después, el Banco Mundial anota que aún no está decidido si la ENCIET reemplazará a la ENEMDU \[23\].
+4. **Diciembre 2025.** El INEC levanta la ENCIET con el cuestionario de la ENEMDU y el marco de 2022, mientras la ENEMDU sigue con el marco de 2010. La comparación muestra que el marco nuevo, por sí solo, "genera cambios en los niveles" de empleo, pobreza y desigualdad, e impide "la comparación directa" con las cifras anteriores \[25\].
+5. **Febrero y marzo de 2026.** El Banco Mundial dice que el cambio es "no solo técnico sino también político-institucional" y pide al INEC un informe que justifique "la transición entre encuestas, o la modificación de la actual encuesta" \[21\]. Ese informe no se ha publicado.
+6. **30 de marzo de 2026.** Segundo contrato con la misma consultora, por USD 20.000, pero para otro encargo: reconstruir las series de la propia ENEMDU con el marco de 2022, de diciembre de 2014 a marzo de 2026 \[26\]. Para entonces, el INEC había decidido migrar la ENEMDU al marco nuevo, y su informe de necesidad aclara que el primer contrato no estaba enfocado en esa reconstrucción \[25\].
+7. **22 de junio de 2026.** Sale el informe de mayo \[1\]. Desde entonces, nada.
 
-El calendario del segundo contrato encaja con el apagón. Según los términos de referencia, la reconstrucción de enero a marzo de 2026 debía entregarse a los 111 días de firmado el contrato. Como el contrato se adjudicó el 30 de marzo, el plazo de esa entrega vencía, como pronto, el 19 de julio, apenas tres días antes de la fecha en que debían salir los datos de junio \[27\] \[e\].
+Los dos contratos, entonces, responden a encargos distintos. El primero buscaba unir la ENEMDU con una ENCIET llamada a sucederla; el segundo reconstruye la propia ENEMDU con el marco nuevo, lo que sugiere que el INEC decidió mantenerla. No es claro por qué sigue adelante con la ENCIET, ni si el primer empalme llegó a entregarse: los documentos revisados no lo dicen. Lo que sí muestran es que el plan cambió en el camino.
 
-Si el INEC hubiera pasado al marco nuevo en junio sin más, cualquier cambio en el desempleo mezclaría dos cosas: lo que de verdad pasó en el mercado laboral y el efecto del marco nuevo. Sin el empalme no hay forma de separarlas, y una caída del desempleo podría ser buena noticia o puro efecto del marco. Por eso el empalme es necesario, y por eso tiene sentido que el INEC quiera publicar la serie nueva ya reconstruida.
+El segundo contrato, además, coincide con el apagón. Según sus términos de referencia, la reconstrucción de enero a marzo de 2026 debía entregarse a los 111 días de firmado. Como se adjudicó el 30 de marzo, el plazo vencía, como pronto, el 19 de julio, tres días antes de la fecha en que debían salir los datos de junio \[27\] \[e\].
 
-El INEC conocía, entonces, el efecto del cambio de marco seis meses antes de que se interrumpiera la publicación: el apagón es la consecuencia visible de un problema que ya estaba ocurriendo.
+La razón de fondo es la comparabilidad. Publicar junio con el marco nuevo, sin esa reconstrucción, habría mezclado dos efectos: lo que de verdad pasó en el mercado laboral y el cambio de marco. Una caída del desempleo podría ser una buena noticia o un simple efecto del marco, y no habría forma de separarlos. Por eso la reconstrucción es necesaria, y por eso tiene sentido que el INEC quiera publicar la serie nueva ya reconstruida.
+
+Con base en los documentos revisados, el INEC prepara una transición que, seis meses antes de interrumpirse la publicación, ya sabía que rompería la comparabilidad de sus series. El apagón es la consecuencia visible de un problema que ya estaba ocurriendo.
 
 ## El atraso no es solo de la ENEMDU
 
@@ -112,7 +114,7 @@ Creo que lo mínimo que el INEC le debe al país es una explicación. Si los dat
 
 &#91;b\] Otros países no dependen de una sola encuesta. México mide el empleo con la *Encuesta Nacional de Ocupación y Empleo* y la pobreza con la *Encuesta Nacional de Ingresos y Gastos de los Hogares*; Canadá mide la pobreza con la *Canadian Income Survey*, basada en declaraciones de impuestos; Estados Unidos la estima con el suplemento anual de ingresos de su encuesta laboral (CPS ASEC) y con la *American Community Survey*. Si una fuente falla, la otra sigue.
 
-&#91;c\] El Censo 2022 se alargó hasta enero de 2023 \[16\] y dejó a más de 800 mil personas sin contar, por lo que el INEC ajustó la población de 16,9 a 17,7 millones \[17\]. La Contraloría halló inconsistencias en la base \[18\] y una consultoría de la ONU estimó que cerca del 10% de los datos fue imputado \[19\], aunque el INEC \[20\] y el Banco Mundial \[21\] defienden su validez.
+&#91;c\] Todo esto ni siquiera considera los problemas que tuvo el Censo 2022: se alargó hasta enero de 2023 \[16\] y dejó a más de 800 mil personas sin contar, por lo que el INEC ajustó la población de 16,9 a 17,7 millones \[17\]. La Contraloría halló inconsistencias en la base \[18\] y una consultoría de la ONU estimó que cerca del 10% de los datos fue imputado \[19\], aunque el INEC \[20\] y el Banco Mundial \[21\] defienden su validez.
 
 &#91;d\] Irónicamente, a algunos los cogió en curva de todas maneras. No a todos nos gusta leer la documentación de las agencias estadísticas como *hobby*.
 
