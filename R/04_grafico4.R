@@ -1,5 +1,5 @@
 # ============================================================
-# Gráfico 4. Línea de tiempo de la transición de la ENEMDU a la ENCIET
+# Gráfico 4. Línea de tiempo del apagón estadístico de la ENEMDU
 # Author: Daniel Sanchez
 # Purpose: Barras de rango para los periodos y rombos para las fechas
 #          puntuales, noviembre de 2024 a diciembre de 2026
