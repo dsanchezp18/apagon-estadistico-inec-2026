@@ -140,12 +140,6 @@ La numeración es la del artículo.
 
 Las fuentes se revisaron a mano. Para buscar documentos (boletines, calendarios, contratos e informes) se usó [EcuDataMCP](https://github.com/DweskZ/EcuDataMCP), un servidor de código abierto que conecta asistentes de inteligencia artificial con fuentes oficiales de Ecuador. La herramienta ayudó a encontrar las fuentes; la lectura, la verificación y el análisis los hizo el autor.
 
-## TODO pendientes
-
-- [ ] Revisar el conteo del Gráfico 2 por operación. Con la página del 7 de octubre, `convocatorias_inec.csv` da ENEMDU 43 y ESPAC 12; el artículo dice ENEMDU 44 y ESPAC 11 (ENDI 14, ENCIET 4, otras 7 y el total de 80 coinciden). Falta decidir qué fila va en cada operación y, si cambia, ajustar `data/grafico2_convocatorias.csv`, el desglose de la ENEMDU y el texto.
-- [ ] Citar una fuente primaria del CNE para la fecha del 29 de noviembre de 2026. El Gráfico 4 cita al CNE, pero las referencias solo traen la nota de prensa [6]. El sitio del CNE bloquea la descarga automática; la nota "CNE aprobó la Convocatoria para las Elecciones Seccionales y del CPCCS 2027" (<https://www.cne.gob.ec/cne-aprobo-la-convocatoria-para-las-elecciones-seccionales-y-del-cpccs-2027/>) parece confirmarla, pero hay que abrirla y leerla antes de agregarla.
-- [ ] Confirmar con el contrato firmado que el primer contrato de empalme empezó el 19 de julio de 2025. Los términos de referencia (EC-INEC-489713-CS-INDV, 16 de junio de 2025) fijan 135 días, que cuadran con el 30 de noviembre, pero no traen la fecha de inicio.
-
 ## Licencia
 
 El código (`R/`) se publica bajo licencia MIT. El texto del artículo y las figuras se publican bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es). Los detalles están en [LICENSE](LICENSE). Los documentos de `data/raw/` son del INEC y conservan sus propias condiciones.
