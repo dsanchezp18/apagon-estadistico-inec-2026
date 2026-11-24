@@ -38,16 +38,16 @@ Rscript R/05_render_html.R
 | Gráfico | Datos | Salidas |
 |---|---|---|
 | 1. Indicadores de mercado laboral y pobreza, nacional, mayo de 2026 y diciembre de 2025 (%) | `data/grafico1_enemdu.csv` | `figuras/grafico1.png`, `.svg` |
-| 2. Puestos en convocatorias del INEC, por operación estadística, 10 de septiembre a 8 de octubre de 2026 | `data/grafico2_convocatorias.csv`, `data/grafico2_enemdu_desglose.csv` | `figuras/grafico2.png`, `.svg` |
+| 2. Convocatorias del INEC (gráfico retirado el 24 de noviembre de 2026; solo archivo histórico) | `data/grafico2_convocatorias.csv`, `data/grafico2_enemdu_desglose.csv` | `figuras/grafico2.png`, `.svg` |
 | 3. Indicadores de población, hogares y vivienda, nacional, censos de 2010 y 2022 | `data/grafico3_censos.csv` | `figuras/grafico3.png`, `.svg` |
 | 4. Línea de tiempo de la transición de la ENEMDU a la ENCIET, noviembre de 2024 a diciembre de 2026 | `data/grafico4_cronologia.csv` | `figuras/grafico4.png`, `.svg` |
 
 Notas sobre los datos:
 
 - Gráfico 1: el mercado laboral es de mayo de 2026 y la pobreza por ingresos, de diciembre de 2025. Fuente: INEC, ENEMDU.
-- Gráfico 2: cada barra cuenta puestos (cargos por lugar de trabajo), no personas. Los 44 puestos de la ENEMDU se desglosan en `data/grafico2_enemdu_desglose.csv`. Consulta hecha el 6 de octubre de 2026 en la página *Trabaja con nosotros* del INEC. Los conteos del CSV son los del artículo; `data/raw/convocatorias_inec.csv` trae las filas de la página al 7 de octubre (ver TODO).
+- Gráfico 2 (retirado): no se recuperó la captura original del 6 de octubre de 2026 y la copia del 7 de octubre no reproduce el recuento publicado por operación. Los CSV agregados y las salidas se conservan solo como archivo histórico, no como evidencia vigente. Las filas del archivo corresponden a cargos por lugar de trabajo, no a vacantes individuales ni a personas contratadas. Las convocatorias no prueban que se haya hecho el operativo de campo ni que existan datos de junio a octubre.
 - Gráfico 3: los porcentajes son sobre el total de hogares o de viviendas. Fuente: INEC, Censo de Población y Vivienda 2010 y 2022.
-- Gráfico 4: el segundo contrato usa el calendario de entregas de los términos de referencia (160 días), aunque el contrato dice 120 días. El primer contrato de empalme va del 19 de julio al 30 de noviembre de 2025, que son los 135 días de plazo de ejecución de sus términos de referencia (fechados el 16 de junio de 2025).
+- Gráfico 4: el segundo contrato se marca el 20 de abril de 2026, fecha de su terminación por mutuo acuerdo. Según el [acta del INEC](https://www.ecuadorencifras.gob.ec/documentos/web-inec/Adquisiciones/Procesos_adquisiciones_Banco_Mundial/2026/enemdu-enciet-533831/2.1_acta_de_terminacion_de_contrato.pdf), no hubo actividades contractuales, entregables ni pagos. El primer contrato de empalme va del 19 de julio al 30 de noviembre de 2025, que son los 135 días de plazo de ejecución de sus términos de referencia (fechados el 16 de junio de 2025).
 
 ## Fuentes guardadas en `data/raw/`
 
@@ -56,7 +56,7 @@ Copias de documentos que pueden cambiar o desaparecer, con la fecha de descarga 
 - `calendario_operaciones_2026_descargado_2026-10-07.xlsx`: calendario de operaciones estadísticas 2026 del INEC. Origen: <https://www.ecuadorencifras.gob.ec/documentos/web-inec/Calendario_Estadistico/Calendario_estadistico_2026/files/operaciones.xlsx>
 - `boletin_reess_2026-05_descargado_2026-10-07.pdf`: boletín del Registro Estadístico de Empleo en la Seguridad Social (REESS) de mayo de 2026. Origen: <https://www.ecuadorencifras.gob.ec/documentos/web-inec/Estadisticas_Economicas/Estadistica_empleo_seguridad_social/2026/mayo/05_2026_Boletin_REESS.pdf>
 - `trabaja_con_nosotros_descargado_2026-10-07.html`: copia de la página *Trabaja con nosotros* del INEC, <https://www.ecuadorencifras.gob.ec/institucional/trabaja-con-nosotros/>.
-- `convocatorias_inec.csv`: una fila por cargo de esa página (83 filas, cierres entre el 13 de septiembre y el 9 de octubre de 2026), con la operación asignada por el proyecto de cada convocatoria. La columna `cuenta_como_puesto` es `no` en las 3 filas de servicio de transporte (contratación pública, no son puestos); las otras 80 filas suman los 80 puestos del Gráfico 2.
+- `convocatorias_inec.csv`: archivo del 7 de octubre con 83 filas y plazos entre el 13 de septiembre y el 9 de octubre de 2026. Cada fila recoge un cargo por lugar de trabajo; la columna `cuenta_como_puesto` excluye tres servicios de transporte. Las 80 filas restantes incluyen al menos un cargo con plazo del 9 de octubre, fuera de la ventana del Gráfico 2 retirado, y no reproducen su desglose por operación.
 
 ## Fuentes
 
