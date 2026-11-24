@@ -24,13 +24,11 @@ La pobreza por ingresos del gráfico (21,4%, diciembre de 2025) se publicó el 8
 
 ## ¿Entonces el INEC dejó de hacer la encuesta?&#32;
 
-Vale la pena considerar el escenario más pesimista: que el INEC haya dejado de levantar la encuesta. Si fuera así, no habría datos guardados esperando su turno, y en diciembre no llegaría nada. Para descartarlo no hace falta preguntarle al INEC; basta con ver a quién contrata. Una encuesta de hogares se hace con gente que toca puertas, y el INEC publica cada convocatoria en su página [*Trabaja con nosotros*](https://www.ecuadorencifras.gob.ec/institucional/trabaja-con-nosotros/).
+Vale la pena considerar el escenario más pesimista: que el INEC haya dejado de levantar la encuesta. Si fuera así, no habría datos guardados esperando su turno, y en diciembre no llegaría nada.
 
-**Gráfico 2.** Puestos en convocatorias del INEC, por operación estadística, 10 de septiembre a 8 de octubre de 2026
+Una pista está en las convocatorias del INEC para la ENEMDU. En Ambato, [la convocatoria que cerró el 30 de septiembre de 2026](https://www.ecuadorencifras.gob.ec/documentos/web-inec/Trabaja_con_Nosotros/2026/6.CONVOCATORIA_enemdu_cz3_30_sep.pdf) buscaba encuestadores y supervisores de campo. En Quito, [la que abrió el 5 de octubre](https://www.ecuadorencifras.gob.ec/documentos/web-inec/Trabaja_con_Nosotros/2026/CONVOCATORIA_ADM_CENTRAL_ENEMDU_05_oct.pdf) buscaba analistas de seguimiento y procesamiento de información. Las convocatorias documentan la búsqueda de personal, pero no confirman que se haya realizado el operativo de campo ni que existan datos de junio a octubre.
 
-&#91;embedded content: Fuente: INEC, página Trabaja con nosotros, convocatorias con plazo de postulación entre el 10 de septiembre y el 8 de octubre de 2026, consultada el 6 de octubre de 2026. Cada barra cuenta puestos (cargos por lugar de trabajo), no personas.\]
-
-De los 80 puestos, 44 son para la ENEMDU, desde encuestadores y supervisores de campo hasta analistas de calidad y de metodología, y esas convocatorias vienen desde enero de 2026. La encuesta sigue viva: los datos de junio a octubre existen, o están por existir, en las computadoras del INEC.
+*Gráfico 2 retirado el 24 de noviembre de 2026. Se conserva la numeración original de los demás gráficos.*
 
 Entonces, ¿qué pasa? En la información pública no aparece ninguna orden política de frenar la publicación. Lo que sí aparece, documento tras documento, es un problema que sobrevive a todos los gobiernos: el de pasar las encuestas a un censo nuevo, lo que en inglés se conoce como *rebasing*. Es uno de los peores dolores de cabeza que puede tener una agencia estadística, en cualquier país.
 
@@ -67,12 +65,13 @@ Un cambio tan grande deja huellas, y las seguí en los documentos de compras del
 3. **Agosto 2025.** Dos meses después, el Banco Mundial anota que aún no está decidido si la ENCIET reemplazará a la ENEMDU \[23\].
 4. **Diciembre 2025.** El INEC levanta la ENCIET con el cuestionario de la ENEMDU y el marco de 2022, mientras la ENEMDU sigue con el marco de 2010. La comparación muestra que el marco nuevo, por sí solo, "genera cambios en los niveles" de empleo, pobreza y desigualdad, e impide "la comparación directa" con las cifras anteriores \[25\].
 5. **Febrero y marzo de 2026.** El Banco Mundial dice que el cambio es "no solo técnico sino también político-institucional" y pide al INEC un informe que justifique "la transición entre encuestas, o la modificación de la actual encuesta" \[21\]. Ese informe no se ha publicado.
-6. **30 de marzo de 2026.** Segundo contrato con la misma consultora, por USD 20.000, pero para otro encargo: reconstruir las series de la propia ENEMDU con el marco de 2022, de diciembre de 2014 a marzo de 2026 \[26\]. Para entonces, el INEC había decidido migrar la ENEMDU al marco nuevo, y su informe de necesidad aclara que el primer contrato no estaba enfocado en esa reconstrucción \[25\].
-7. **22 de junio de 2026.** Sale el informe de mayo \[1\]. Desde entonces, nada.
+6. **30 de marzo de 2026.** El INEC adjudicó a Hanwen Zhang, por USD 20.000 más impuestos, la consultoría para reconstruir las series de la propia ENEMDU con el marco de 2022, de diciembre de 2014 a marzo de 2026 \[26\]. El informe de necesidad aclara que el primer contrato no estaba enfocado en esa reconstrucción \[25\].
+7. **20 de abril de 2026.** El INEC y la consultora terminaron el segundo contrato por mutuo acuerdo. Lo habían firmado el 2 de abril, pero el INEC reprogramó el operativo de la ENEMDU para retomar el marco del Censo 2010 a partir del 11 de abril. No hubo actividades contractuales, entregables ni pagos \[31\].
+8. **22 de junio de 2026.** Sale el informe de mayo \[1\]. Desde entonces, nada.
 
-Los dos contratos, entonces, responden a encargos distintos. El primero buscaba unir la ENEMDU con una ENCIET llamada a sucederla; el segundo reconstruye la propia ENEMDU con el marco nuevo, lo que sugiere que el INEC decidió mantenerla. No es claro por qué sigue adelante con la ENCIET (el Gráfico 2 muestra cuatro puestos abiertos para ella), ni si el primer empalme llegó a entregarse: los documentos revisados no lo dicen.
+Los dos contratos respondían a encargos distintos. El primero buscaba unir la ENEMDU con una ENCIET llamada a sucederla; el segundo buscaba reconstruir la propia ENEMDU con el marco nuevo. No es claro por qué sigue adelante la ENCIET, ni si el primer empalme llegó a entregarse: los documentos revisados no lo dicen.
 
-El segundo contrato, además, coincide con el apagón. Según sus términos de referencia, la reconstrucción de enero a marzo de 2026 debía entregarse a los 111 días de firmado. Como se adjudicó el 30 de marzo, el plazo vencía, como pronto, el 19 de julio, tres días antes de la fecha en que debían salir los datos de junio \[27\] \[e\]. Sin esa reconstrucción, publicar junio con el marco nuevo habría mezclado dos efectos: lo que de verdad pasó en el mercado laboral y el cambio de marco.
+El segundo contrato no permite establecer una conexión con el apagón. Sus términos de referencia preveían entregas \[27\], pero la consultoría no llegó a ejecutarse \[31\]. Esas fechas no demuestran que la reconstrucción estuviera en marcha ni explican el retraso de las cifras de junio.
 
 Los documentos muestran que el INEC sabía, al menos desde marzo de 2026, que el cambio de marco rompería la comparabilidad de sus series \[25\]. El apagón es la consecuencia visible de un problema que ya estaba en marcha.
 
@@ -92,11 +91,11 @@ Las fechas, por último, siguen un patrón. El 27 de marzo de 2026 el CNE adelan
 
 Además, la transición cae sobre un instituto golpeado. La pandemia ya desordenó la ENEMDU en 2020 \[9\]. La plata no alcanza: el techo presupuestario del proyecto para 2026 es de unos USD 6,5 millones, frente a USD 7,6 millones de gasto proyectado \[21\]. Y la inseguridad hace cada vez más difícil entrevistar a la gente en sus casas \[21\]. Todo eso es desorden, y explica por qué aquí un cambio como el de Colombia cuesta más.
 
-Pero la navaja tiene un límite. El cambio de marco no explica por qué también se atrasaron el empleo del IESS y las defunciones, que no dependen del censo. Tampoco explica por qué el INEC no publica nada mientras termina el empalme: si la encuesta ya se levanta con el marco nuevo, podría publicar esas cifras con una advertencia, como hizo Colombia, o al menos explicar el cambio. Y, sobre todo, no explica el silencio público: un aviso de dos líneas, sin motivo, para la estadística más importante del país y en pleno año electoral.
+Pero la navaja tiene un límite. El cambio de marco no explica por qué también se atrasaron el empleo del IESS y las defunciones, que no dependen del censo. Tampoco explica por qué el INEC no publica cifras durante la transición. Si ya levantó la encuesta con el marco nuevo, podría publicar esas cifras con una advertencia, como hizo Colombia, o al menos explicar el cambio. Y, sobre todo, no explica el silencio público: un aviso de dos líneas, sin motivo, para la estadística más importante del país y en pleno año electoral.
 
 En mi opinión, hay un poco de las dos cosas: un instituto desbordado por una transición mal planificada, y una demora que, conveniente o no, nadie en el Estado parece haberse preocupado por evitar o explicar.
 
-Creo que lo mínimo que el INEC le debe al país es una explicación. Si los datos existen, y todo indica que sí, el instituto puede decir hoy con qué marco los está levantando, qué le entregó la consultora y cuándo, y dónde está el informe que le pidió el Banco Mundial. El 22 de diciembre, si se cumple el calendario, sabremos qué pasó con el empleo en 2026 y, si el INEC publica los microdatos, también se podrá calcular la pobreza. Si nada cambia antes, iremos a votar el 29 de noviembre sin saberlo.
+Creo que lo mínimo que el INEC le debe al país es una explicación. El instituto puede aclarar si dispone de datos de esos meses y con qué marco los levantó, qué pasó con el primer empalme y dónde está el informe que le pidió el Banco Mundial. El 22 de diciembre, si se cumple el calendario, sabremos qué pasó con el empleo en 2026 y, si el INEC publica los microdatos, también se podrá calcular la pobreza. Si nada cambia antes, iremos a votar el 29 de noviembre sin saberlo.
 
 ## Notas
 
@@ -108,11 +107,11 @@ Creo que lo mínimo que el INEC le debe al país es una explicación. Si los dat
 
 &#91;d\] Irónicamente, a algunos los cogió en curva de todas maneras. No a todos nos gusta leer la documentación de las agencias estadísticas como *hobby*.
 
-&#91;e\] El contrato dice que el plazo es de 120 días, pero su propia tabla de entregas, la misma de los términos de referencia y el acta de negociación, pone productos a los 30, 40 y 111 días, y los términos de referencia fijan el último a los 160 días \[26\] \[27\] \[29\]. El Gráfico 4 usa el calendario de entregas de los términos de referencia.
-
 &#91;f\] Desde mayo de 2026 el IPC se publica el décimo día laborable de cada mes, y ya no a inicios de mes, por la Resolución 001-2026 del Consejo Nacional de Estadística y Censos, anunciada en el calendario \[3\]. Junio salió el 14 de julio, julio el 17 de agosto y agosto el 14 de septiembre.
 
 *Para este artículo usé EcuDataMCP \[30\], un servidor de código abierto que conecta asistentes de inteligencia artificial con fuentes oficiales de Ecuador, para buscar boletines, calendarios y documentos del INEC y de otras instituciones. La herramienta me ayudó a encontrar las fuentes; la lectura, la verificación y el análisis son míos. Los datos y el código de este artículo están en [GitHub](https://github.com/dsanchezp18/apagon-estadistico-inec-2026).*
+
+> Nota de corrección, 24 de noviembre de 2026. Se retiró el Gráfico 2 porque el archivo recuperado no reproduce el recuento original. Las dos convocatorias enlazadas documentan la búsqueda de personal, no el trabajo de campo ni la existencia de datos. El Gráfico 4 muestra la terminación del segundo contrato en lugar de sus fechas previstas de entrega. Esta actualización recoge la corrección del 21 de octubre en El Quantificador. [Ver artículo corregido](https://elquantificador.org/post/economia/2026-10-09-apagon-estadistico-inec/).
 
 ## Referencias
 
@@ -175,3 +174,5 @@ Creo que lo mínimo que el INEC le debe al país es una explicación. Si los dat
 &#91;29\] Instituto Nacional de Estadística y Censos. (2026, 24 de marzo). *Acta Nro. 005: Negociación* (EC-INEC-533831-CS-INDV). <https://www.ecuadorencifras.gob.ec/documentos/web-inec/Adquisiciones/Procesos_adquisiciones_Banco_Mundial/2026/enemdu-enciet-533831/48_Acta_005.pdf>
 
 &#91;30\] Figueroa, L., y Sánchez-Pazmiño, D. (2026). *EcuDataMCP* \[Software\]. GitHub. <https://github.com/DweskZ/EcuDataMCP>
+
+&#91;31\] Instituto Nacional de Estadística y Censos. (2026, 20 de abril). Acta de terminación por mutuo acuerdo del contrato de servicios de consultoría para reconstrucción de series de mercado laboral, pobreza y desigualdad por cambio de marco muestral ENEMDU - C2 - ENCIET (EC-INEC-533831-CS-INDV). <https://www.ecuadorencifras.gob.ec/documentos/web-inec/Adquisiciones/Procesos_adquisiciones_Banco_Mundial/2026/enemdu-enciet-533831/2.1_acta_de_terminacion_de_contrato.pdf>

@@ -51,9 +51,9 @@
 <rect x='211.17' y='29.25' width='149.69' height='28.88' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #6FA8DC;' />
 <rect x='309.70' y='77.39' width='51.16' height='28.88' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #6FA8DC;' />
 <rect x='392.69' y='173.66' width='4.17' height='28.88' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #6FA8DC;' />
-<rect x='405.95' y='221.79' width='61.01' height='28.88' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #6FA8DC;' />
 <rect x='449.15' y='318.06' width='58.36' height='28.88' style='stroke-width: 1.16; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C84040;' />
 <polygon points='354.07,139.96 360.85,133.17 367.64,139.96 360.85,146.75 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
+<polygon points='407.12,236.23 413.91,229.44 420.70,236.23 413.91,243.02 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
 <polygon points='430.99,284.36 437.78,277.57 444.57,284.36 437.78,291.15 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
 <polygon points='491.63,380.63 498.41,373.84 505.20,380.63 498.41,387.42 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
 <polygon points='500.34,428.76 507.13,421.97 513.92,428.76 507.13,435.55 ' style='stroke-width: 0.77; stroke: none; fill: #6FA8DC;' />
@@ -61,7 +61,7 @@
 <text x='369.57' y='95.69' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='97.22px' lengthAdjust='spacingAndGlyphs'>19 jul a 30 nov 2025</text>
 <text x='369.95' y='143.83' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='49.81px' lengthAdjust='spacingAndGlyphs'>1 dic 2025</text>
 <text x='405.57' y='191.96' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='96.59px' lengthAdjust='spacingAndGlyphs'>23 feb a 5 mar 2026</text>
-<text x='402.16' y='240.10' text-anchor='end' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='99.00px' lengthAdjust='spacingAndGlyphs'>30 mar a 6 sep 2026</text>
+<text x='423.01' y='240.10' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='57.70px' lengthAdjust='spacingAndGlyphs'>20 abr 2026</text>
 <text x='433.99' y='288.23' text-anchor='end' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='56.41px' lengthAdjust='spacingAndGlyphs'>22 jun 2026</text>
 <text x='445.36' y='336.36' text-anchor='end' style='font-size: 10.81px; font-weight: bold;fill: #C84040; font-family: "Arial";' textLength='97.19px' lengthAdjust='spacingAndGlyphs'>22 jul a 22 dic 2026</text>
 <text x='494.62' y='384.50' text-anchor='end' style='font-size: 10.81px;fill: #4D4D4D; font-family: "Arial";' textLength='59.41px' lengthAdjust='spacingAndGlyphs'>29 nov 2026</text>
@@ -79,7 +79,7 @@
 <text x='199.35' y='96.13' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='151.38px' lengthAdjust='spacingAndGlyphs'>Primer contrato de empalme</text>
 <text x='199.35' y='144.26' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='187.39px' lengthAdjust='spacingAndGlyphs'>Experimento: solo cambia el marco</text>
 <text x='199.35' y='192.39' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='136.73px' lengthAdjust='spacingAndGlyphs'>Misión del Banco Mundial</text>
-<text x='199.35' y='240.53' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='152.72px' lengthAdjust='spacingAndGlyphs'>Segundo contrato (entregas)</text>
+<text x='199.35' y='240.53' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='180.11px' lengthAdjust='spacingAndGlyphs'>Terminación del segundo contrato</text>
 <text x='199.35' y='288.66' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='134.70px' lengthAdjust='spacingAndGlyphs'>Sale mayo, el último dato</text>
 <text x='199.35' y='336.79' text-anchor='end' style='font-size: 12.00px; font-weight: bold;fill: #C84040; font-family: "Arial";' textLength='145.30px' lengthAdjust='spacingAndGlyphs'>Apagón de publicaciones</text>
 <text x='199.35' y='384.93' text-anchor='end' style='font-size: 12.00px;fill: #333333; font-family: "Arial";' textLength='124.06px' lengthAdjust='spacingAndGlyphs'>Elecciones seccionales</text>
